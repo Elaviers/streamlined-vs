@@ -1,0 +1,946 @@
+<ThemeDiff>
+    <Category Name="CommonControls" GUID="{c01072a1-a915-4abf-89b7-e2f9e8ec4c7f}">
+        <Item Name="FocusVisual" Foreground="FFF1F1F1" Background="FF222422" />
+        <Item Name="Button" Foreground="FFF1F1F1" Background="FF3F463F" />
+        <Item Name="ButtonDefault" Foreground="FFF1F1F1" Background="FF3F463F" />
+        <Item Name="ButtonBorderDefault" Background="FF008800" />
+        <Item Name="ButtonPressed" Foreground="FFF1F1F1" Background="FF008800" />
+        <Item Name="ButtonBorderPressed" Background="FF008800" />
+        <Item Name="ButtonHover" Foreground="FFF1F1F1" Background="FF3F463F" />
+        <Item Name="ButtonBorderHover" Background="FF008800" />
+        <Item Name="ButtonDisabled" Foreground="FF656565" Background="FF2D302D" />
+        <Item Name="ButtonBorderDisabled" Background="FF3F463F" />
+        <Item Name="ButtonFocused" Foreground="FFF1F1F1" Background="FF3F463F" />
+        <Item Name="ButtonBorderFocused" Background="FF008800" />
+        <Item Name="CheckBoxBackground" Background="FF222422" />
+        <Item Name="CheckBoxBackgroundHover" Background="FF222422" />
+        <Item Name="CheckBoxBackgroundPressed" Background="FF008800" />
+        <Item Name="CheckBoxBackgroundDisabled" Background="FF2D302D" />
+        <Item Name="CheckBoxBackgroundFocused" Background="FF222422" />
+        <Item Name="CheckBoxBorderHover" Background="FF008800" />
+        <Item Name="CheckBoxBorderPressed" Background="FF008800" />
+        <Item Name="CheckBoxBorderDisabled" Background="FF3F463F" />
+        <Item Name="CheckBoxBorderFocused" Background="FF008800" />
+        <Item Name="ComboBoxBackground" Background="FF2D302D" />
+        <Item Name="ComboBoxBorder" Background="FF3F463F" />
+        <Item Name="ComboBoxSeparator" Background="FF2D302D" />
+        <Item Name="ComboBoxGlyphBackground" Background="FF2D302D" />
+        <Item Name="ComboBoxBackgroundDisabled" Background="FF2D302D" />
+        <Item Name="ComboBoxBorderDisabled" Background="FF3F463F" />
+        <Item Name="ComboBoxSeparatorDisabled" Background="FF2D302D" />
+        <Item Name="ComboBoxGlyphBackgroundDisabled" Background="FF2D302D" />
+        <Item Name="ComboBoxBackgroundPressed" Background="FF3F463F" />
+        <Item Name="ComboBoxBorderPressed" Background="FF008800" />
+        <Item Name="ComboBoxSeparatorPressed" Background="FF008800" />
+        <Item Name="ComboBoxGlyphBackgroundPressed" Background="FF008800" />
+        <Item Name="ComboBoxBackgroundHover" Background="FF3F463F" />
+        <Item Name="ComboBoxBorderHover" Background="FF008800" />
+        <Item Name="ComboBoxSeparatorHover" Background="FF008800" />
+        <Item Name="ComboBoxGlyphHover" Background="FF008800" />
+        <Item Name="ComboBoxGlyphBackgroundHover" Background="FF222422" />
+        <Item Name="ComboBoxBackgroundFocused" Background="FF3F463F" />
+        <Item Name="ComboBoxBorderFocused" Background="FF008800" />
+        <Item Name="ComboBoxSeparatorFocused" Background="FF008800" />
+        <Item Name="ComboBoxGlyphFocused" Background="FF008800" />
+        <Item Name="ComboBoxGlyphBackgroundFocused" Background="FF3F463F" />
+        <Item Name="ComboBoxListItemBackgroundHover" Background="FF3F463F" />
+        <Item Name="ComboBoxListItemBorderHover" Background="FF3F463F" />
+        <Item Name="ComboBoxListBorder" Background="FF3F463F" />
+        <Item Name="ComboBoxSelection" Background="FF008800" />
+        <Item Name="InnerTabActiveBackground" Background="FF3F463F" />
+        <Item Name="InnerTabActiveBorder" Background="FF3F463F" />
+        <Item Name="InnerTabInactiveBackground" Background="FF222422" />
+        <Item Name="InnerTabInactiveBorder" Background="FF222422" />
+        <Item Name="TextBoxBackground" Background="FF2D302D" />
+        <Item Name="TextBoxBorder" Background="FF3F463F" />
+        <Item Name="TextBoxBackgroundDisabled" Background="FF2D302D" />
+        <Item Name="TextBoxBorderDisabled" Background="FF3F463F" />
+        <Item Name="TextBoxBackgroundFocused" Background="FF3F463F" />
+        <Item Name="TextBoxBorderFocused" Background="FF008800" />
+    </Category>
+    <Category Name="CommonDocument" GUID="{72eb4027-f4ae-4b6c-9cc2-dfd5b49d9415}">
+        <Item Name="Page" Foreground="FFF1F1F1" Background="FF222422" />
+        <Item Name="Caption" Foreground="FFF1F1F1" Background="FF2D302D" />
+        <Item Name="GridLine" Background="FF3F463F" />
+        <Item Name="Divider" Background="FF3F463F" />
+        <Item Name="ListItemBorderHover" Background="FF4C4D4C" />
+        <Item Name="ListItemBackgroundHover" Background="FF4C4D4C" />
+        <Item Name="ListItemBorderPressed" Background="FF008800" />
+        <Item Name="ListItemBackgroundPressed" Background="FF008800" />
+        <Item Name="ListItemBorderSelected" Background="FF008800" />
+        <Item Name="ListItemBackgroundSelected" Background="FF008800" />
+        <Item Name="ListItemBorderFocused" Background="FF4C4D4C" />
+        <Item Name="ListItemBackgroundFocused" Background="FF4C4D4C" />
+        <Item Name="TileViewBorderHover" Background="FF4C4D4C" />
+        <Item Name="TileViewBackgroundHover" Background="FF4C4D4C" />
+        <Item Name="TileViewBorderFocused" Background="FF4C4D4C" />
+        <Item Name="TileViewBackgroundFocused" Background="FF4C4D4C" />
+        <Item Name="StatusBannerInfo" Foreground="FF1E1E1E" Background="1E33A233" />
+        <Item Name="StatusBannerInfoBorder" Foreground="FF33A233" />
+    </Category>
+    <Category Name="CommonDocumentCard" GUID="{2e129498-0d2d-43ca-94d6-c652c0132543}">
+        <Item Name="CardIllustrationFill2" Background="FF008800" />
+    </Category>
+    <Category Name="ConfigPage" GUID="{699a73b3-57e2-4754-9364-ee80d6852c2f}">
+        <Item Name="TabActive" Foreground="FFF1F1F1" Background="FF222422" />
+        <Item Name="Watermark" Foreground="FF999999" Background="FF222422" />
+        <Item Name="DescriptionPane" Foreground="FFF1F1F1" Background="FF2D302D" />
+        <Item Name="Background" Foreground="FFF1F1F1" Background="FF222422" />
+        <Item Name="TabInactive" Foreground="FFF1F1F1" Background="FF2D302D" />
+        <Item Name="TabMouseOver" Foreground="FFF1F1F1" Background="FF3F463F" />
+    </Category>
+    <Category Name="CpuUsageTool" GUID="{02071ec8-0cf0-4822-af30-9f001537e7eb}">
+        <Item Name="CallerCalleeFunctionGroupBackground" Background="FF222422" />
+        <Item Name="CallerCalleeFunctionBackground" Background="FF2D302D" />
+        <Item Name="CallerCalleeFunctionBackgroundHover" Background="FF3F463F" />
+        <Item Name="FlatFunctionsUsageBarBackground" Background="FF458C4D" />
+    </Category>
+    <Category Name="DetailsView" GUID="{a128c60e-947c-4f26-95c9-fb4b3d53547f}">
+        <Item Name="CommandBarMouseOverBackground" Background="FF2D302D" />
+        <Item Name="CommandBarHoverOverSelected" Background="FF2D302D" />
+    </Category>
+    <Category Name="Diagnostics" GUID="{6f4c1845-5111-4f31-b204-47cb6a466ee8}">
+        <Item Name="AdvancedListItemLinkSelected" Background="FF008800" />
+        <Item Name="AdvancedListItemLink" Background="FF008800" />
+        <Item Name="AdvancedListItemSelected" Foreground="FFEEEFEE" Background="FF3F3F3F" />
+        <Item Name="ControlHeader" Foreground="FFF1F1F1" Background="FF595B59" />
+        <Item Name="TargetBackground" Background="FF4C4D4C" />
+        <Item Name="TargetBackgroundPressed" Background="FF008800" />
+        <Item Name="TargetBorderHover" Background="FF6FB173" />
+        <Item Name="ToolBackground" Background="FF4C4D4C" />
+        <Item Name="ToolBackgroundHover" Background="FF4C4D4C" />
+        <Item Name="ToolBorderHover" Background="FF6FB173" />
+        <Item Name="ButtonBackgroundDisabled" Background="FF2D302D" />
+        <Item Name="ButtonBorderDisabled" Background="FF2D302D" />
+        <Item Name="ToolWindowSplitBarBackground" Background="FF3F463F" />
+    </Category>
+    <Category Name="Environment" GUID="{624ed9c3-bdfd-41fa-96c3-7c824ea32e3d}">
+        <Item Name="ActiveBorder" Background="FF3F463F" />
+        <Item Name="ActiveCaption" Background="FF222422" />
+        <Item Name="AppWorkspace" Background="FF2D302D" />
+        <Item Name="ButtonFace" Background="FF3F463F" />
+        <Item Name="ButtonShadow" Background="FF3F463F" />
+        <Item Name="InactiveBorder" Background="FF3F463F" />
+        <Item Name="InactiveCaption" Background="FF2D302D" />
+        <Item Name="Menu" Background="FF171917" />
+        <Item Name="ScrollBar" Background="FF3F463F" />
+        <Item Name="ThreeDDarkShadow" Background="FF2D302D" />
+        <Item Name="ThreeDFace" Background="FF3F463F" />
+        <Item Name="ThreeDLightShadow" Background="FF2D302D" />
+        <Item Name="ThreeDShadow" Background="FF3F463F" />
+        <Item Name="Window" Background="FF222422" />
+        <Item Name="WindowFrame" Background="FF2D302D" />
+        <Item Name="AutoHideTabBackgroundBegin" Background="FF2D302D" />
+        <Item Name="AutoHideTabBackgroundEnd" Background="FF2D302D" />
+        <Item Name="AutoHideTabBorder" Background="FF3F463F" />
+        <Item Name="AutoHideTabMouseOverText" Background="FF008800" />
+        <Item Name="AutoHideTabMouseOverBackgroundBegin" Background="FF2D302D" />
+        <Item Name="AutoHideTabMouseOverBackgroundEnd" Background="FF2D302D" />
+        <Item Name="AutoHideTabMouseOverBorder" Background="FF008800" />
+        <Item Name="AutoHideResizeGrip" Background="FF2D302D" />
+        <Item Name="ClassDesignerDiagramBackground" Background="FF222422" />
+        <Item Name="ClassDesignerShapeShadow" Background="FF222422" />
+        <Item Name="ComboBoxBackground" Background="FF2D302D" />
+        <Item Name="ComboBoxBorder" Background="FF3F463F" />
+        <Item Name="ComboBoxDisabledBackground" Background="FF2D302D" />
+        <Item Name="ComboBoxDisabledBorder" Background="FF3F463F" />
+        <Item Name="ComboBoxDisabledGlyph" Background="FF3F463F" />
+        <Item Name="ComboBoxMouseDownBackground" Background="FF3F463F" />
+        <Item Name="ComboBoxMouseDownBorder" Background="FF008800" />
+        <Item Name="ComboBoxMouseOverBackgroundBegin" Background="FF3F463F" />
+        <Item Name="ComboBoxMouseOverBackgroundMiddle1" Background="FF3F463F" />
+        <Item Name="ComboBoxMouseOverBackgroundMiddle2" Background="FF3F463F" />
+        <Item Name="ComboBoxMouseOverBackgroundEnd" Background="FF3F463F" />
+        <Item Name="ComboBoxMouseOverBorder" Background="FF008800" />
+        <Item Name="ComboBoxMouseOverGlyph" Background="FF008800" />
+        <Item Name="ComboBoxPopupBackgroundBegin" Background="FF171917" />
+        <Item Name="ComboBoxPopupBackgroundEnd" Background="FF171917" />
+        <Item Name="ComboBoxPopupBorder" Background="FF2D302D" />
+        <Item Name="CommandBarMenuBackgroundGradientBegin" Background="FF171917" />
+        <Item Name="CommandBarMenuBackgroundGradientEnd" Background="FF171917" />
+        <Item Name="CommandBarMenuBorder" Background="FF2D302D" />
+        <Item Name="CommandBarMenuIconBackground" Background="FF171917" />
+        <Item Name="CommandBarMenuMouseOverSubmenuGlyph" Background="FF008800" />
+        <Item Name="CommandBarMenuSeparator" Background="FF2D302D" />
+        <Item Name="CommandBarMouseDownBackgroundBegin" Background="FF008800" />
+        <Item Name="CommandBarMouseDownBackgroundMiddle" Background="FF008800" />
+        <Item Name="CommandBarMouseDownBackgroundEnd" Background="FF008800" />
+        <Item Name="CommandBarMouseDownBorder" Background="FF008800" />
+        <Item Name="CommandBarMouseOverBackgroundBegin" Background="FF3F463F" />
+        <Item Name="CommandBarMouseOverBackgroundMiddle1" Background="FF3F463F" />
+        <Item Name="CommandBarMouseOverBackgroundMiddle2" Background="FF3F463F" />
+        <Item Name="CommandBarMouseOverBackgroundEnd" Background="FF3F463F" />
+        <Item Name="CommandBarOptionsBackground" Background="FF2D302D" />
+        <Item Name="CommandBarOptionsMouseDownBackgroundBegin" Background="FF008800" />
+        <Item Name="CommandBarOptionsMouseDownBackgroundMiddle" Background="FF008800" />
+        <Item Name="CommandBarOptionsMouseDownBackgroundEnd" Background="FF008800" />
+        <Item Name="CommandBarOptionsMouseOverGlyph" Background="FF008800" />
+        <Item Name="CommandBarToolBarBorder" Background="FF2D302D" />
+        <Item Name="CommandShelfBackgroundGradientBegin" Background="FF2D302D" />
+        <Item Name="CommandShelfBackgroundGradientMiddle" Background="FF2D302D" />
+        <Item Name="CommandShelfBackgroundGradientEnd" Background="FF2D302D" />
+        <Item Name="CommandShelfHighlightGradientBegin" Background="FF2D302D" />
+        <Item Name="CommandShelfHighlightGradientMiddle" Background="FF2D302D" />
+        <Item Name="CommandShelfHighlightGradientEnd" Background="FF2D302D" />
+        <Item Name="DockTargetBackground" Background="FF171917" />
+        <Item Name="DockTargetBorder" Background="FF2D302D" />
+        <Item Name="DockTargetButtonBackgroundBegin" Background="FF222422" />
+        <Item Name="DockTargetButtonBackgroundEnd" Background="FF222422" />
+        <Item Name="DockTargetButtonBorder" Background="FF222422" />
+        <Item Name="DockTargetGlyphBackgroundBegin" Background="FF222422" />
+        <Item Name="DockTargetGlyphBackgroundEnd" Background="FF222422" />
+        <Item Name="DockTargetGlyphBorder" Background="FF008800" />
+        <Item Name="DropDownBackground" Background="FF2D302D" />
+        <Item Name="DropDownBorder" Background="FF3F463F" />
+        <Item Name="DropDownDisabledBackground" Background="FF2D302D" />
+        <Item Name="DropDownDisabledBorder" Background="FF3F463F" />
+        <Item Name="DropDownDisabledGlyph" Background="FF3F463F" />
+        <Item Name="DropDownMouseDownBackground" Background="FF3F463F" />
+        <Item Name="DropDownMouseDownBorder" Background="FF3F463F" />
+        <Item Name="DropDownMouseOverBackgroundBegin" Background="FF3F463F" />
+        <Item Name="DropDownMouseOverBackgroundMiddle1" Background="FF3F463F" />
+        <Item Name="DropDownMouseOverBackgroundMiddle2" Background="FF3F463F" />
+        <Item Name="DropDownMouseOverBackgroundEnd" Background="FF3F463F" />
+        <Item Name="DropDownMouseOverBorder" Background="FF3F463F" />
+        <Item Name="DropDownMouseOverGlyph" Background="FF008800" />
+        <Item Name="DropDownPopupBackgroundBegin" Background="FF171917" />
+        <Item Name="DropDownPopupBackgroundEnd" Background="FF171917" />
+        <Item Name="DropDownPopupBorder" Background="FF2D302D" />
+        <Item Name="EnvironmentBackgroundGradientMiddle1" Background="FF2D302D" />
+        <Item Name="EnvironmentBackgroundGradientMiddle2" Background="FF2D302D" />
+        <Item Name="EnvironmentBackgroundTexture1" Background="FF2D302D" />
+        <Item Name="EnvironmentBackgroundTexture2" Background="FF2D302D" />
+        <Item Name="FileTabHotBorder" Background="FF33A233" />
+        <Item Name="FileTabInactiveGradientTop" Background="FF3F463F" />
+        <Item Name="FileTabInactiveGradientBottom" Background="FF3F463F" />
+        <Item Name="FileTabInactiveDocumentBorderBackground" Background="FF3F463F" />
+        <Item Name="FileTabInactiveDocumentBorderEdge" Background="FF3F463F" />
+        <Item Name="FileTabLastActiveGradientTop" Background="FF1B6826" />
+        <Item Name="FileTabLastActiveGradientMiddle1" Background="FF1B6826" />
+        <Item Name="FileTabLastActiveGradientMiddle2" Background="FF1B6826" />
+        <Item Name="FileTabLastActiveGradientBottom" Background="FF1B6826" />
+        <Item Name="FileTabLastActiveDocumentBorderBackground" Background="FF008800" />
+        <Item Name="FileTabLastActiveDocumentBorderEdge" Background="FF008800" />
+        <Item Name="FileTabSelectedGradientMiddle1" Background="FF008800" />
+        <Item Name="FileTabSelectedGradientMiddle2" Background="FF008800" />
+        <Item Name="NewProjectBackground" Background="FF222422" />
+        <Item Name="NewProjectProviderHoverBegin" Background="FF3F463F" />
+        <Item Name="NewProjectProviderHoverMiddle1" Background="FF3F463F" />
+        <Item Name="NewProjectProviderHoverMiddle2" Background="FF3F463F" />
+        <Item Name="NewProjectProviderHoverEnd" Background="FF3F463F" />
+        <Item Name="NewProjectProviderInactiveBegin" Background="FF3F463F" />
+        <Item Name="NewProjectProviderInactiveEnd" Background="FF3F463F" />
+        <Item Name="NewProjectItemInactiveBegin" Background="FF3F463F" />
+        <Item Name="NewProjectItemInactiveEnd" Background="FF3F463F" />
+        <Item Name="NewProjectItemInactiveBorder" Background="FF3F463F" />
+        <Item Name="PageContentExpanderSeparator" Background="FF3F463F" />
+        <Item Name="PageSideBarExpanderBody" Background="FF222422" />
+        <Item Name="PageSideBarExpanderHeader" Background="FF3F463F" />
+        <Item Name="PageSideBarExpanderHeaderHover" Background="FF3F463F" />
+        <Item Name="PageSideBarExpanderHeaderPressed" Background="FF3F463F" />
+        <Item Name="PageSideBarExpanderSeparator" Background="FF3F463F" />
+        <Item Name="ScrollBarArrowBackground" Background="FF3F463F" />
+        <Item Name="ScrollBarArrowDisabledBackground" Background="FF3F463F" />
+        <Item Name="ScrollBarArrowMouseOverBackground" Background="FF3F463F" />
+        <Item Name="ScrollBarArrowPressedBackground" Background="FF3F463F" />
+        <Item Name="ScrollBarBackground" Background="FF3F463F" />
+        <Item Name="ScrollBarDisabledBackground" Background="FF3F463F" />
+        <Item Name="SearchBoxBackground" Background="FF2D302D" />
+        <Item Name="SearchBoxBorder" Background="FF2D302D" />
+        <Item Name="SearchBoxMouseOverBackgroundBegin" Background="FF3F463F" />
+        <Item Name="SearchBoxMouseOverBackgroundMiddle1" Background="FF3F463F" />
+        <Item Name="SearchBoxMouseOverBackgroundMiddle2" Background="FF3F463F" />
+        <Item Name="SearchBoxMouseOverBackgroundEnd" Background="FF3F463F" />
+        <Item Name="SearchBoxMouseOverBorder" Background="FF3F463F" />
+        <Item Name="SearchBoxPressedBackground" Background="FF3F463F" />
+        <Item Name="SearchBoxPressedBorder" Background="FF008800" />
+        <Item Name="StartPageBackgroundGradientBegin" Background="FF222422" />
+        <Item Name="StartPageBackgroundGradientEnd" Background="FF222422" />
+        <Item Name="StartPageSelectedItemBackground" Background="FF008800" />
+        <Item Name="StartPageSeparator" Background="FF2D302D" />
+        <Item Name="StartPageTabBackgroundBegin" Background="FF222422" />
+        <Item Name="StartPageTabBackgroundEnd" Background="FF222422" />
+        <Item Name="StartPageTabMouseOverBackgroundBegin" Background="FF2D302D" />
+        <Item Name="StartPageTabMouseOverBackgroundEnd" Background="FF2D302D" />
+        <Item Name="TitleBarActiveGradientMiddle1" Background="FF008800" />
+        <Item Name="TitleBarActiveGradientMiddle2" Background="FF008800" />
+        <Item Name="ToolboxSelectedHeadingBegin" Background="FF2D302D" />
+        <Item Name="ToolboxSelectedHeadingMiddle1" Background="FF2D302D" />
+        <Item Name="ToolboxSelectedHeadingMiddle2" Background="FF2D302D" />
+        <Item Name="ToolboxSelectedHeadingEnd" Background="FF2D302D" />
+        <Item Name="ToolWindowButtonInactive" Background="FF2D302D" />
+        <Item Name="ToolWindowButtonInactiveBorder" Background="FF2D302D" />
+        <Item Name="ToolWindowContentTabGradientBegin" Background="FF2D302D" />
+        <Item Name="ToolWindowContentTabGradientEnd" Background="FF2D302D" />
+        <Item Name="ToolWindowFloatingFrame" Foreground="FF999999" Background="FF2D302D" />
+        <Item Name="ToolWindowTabMouseOverBackgroundBegin" Background="FF3F463F" />
+        <Item Name="ToolWindowTabMouseOverBackgroundEnd" Background="FF3F463F" />
+        <Item Name="ToolWindowTabMouseOverBorder" Background="FF3F463F" />
+        <Item Name="VizSurfaceSteelBlueDark" Background="FF458C4D" />
+        <Item Name="VizSurfaceStrongBlueDark" Background="FF458C4D" />
+        <Item Name="VizSurfaceStrongBlueMedium" Background="FF6FB173" />
+        <Item Name="AccentBorder" Background="FF3F463F" />
+        <Item Name="AccentDark" Background="FF3F463F" />
+        <Item Name="AccentLight" Background="FF222422" />
+        <Item Name="AccentMedium" Background="FF2D302D" />
+        <Item Name="AccentPale" Background="FF2D302D" />
+        <Item Name="CommandBarBorder" Background="FF2D302D" />
+        <Item Name="CommandBarGradientBegin" Background="FF2D302D" />
+        <Item Name="CommandBarGradientEnd" Background="FF2D302D" />
+        <Item Name="CommandBarGradientMiddle" Background="FF2D302D" />
+        <Item Name="CommandBarHover" Background="FF3F463F" />
+        <Item Name="CommandBarHoverOverSelected" Background="FF3F463F" />
+        <Item Name="CommandBarHoverOverSelectedIcon" Background="FF3F463F" />
+        <Item Name="CommandBarSelected" Background="FF2D302D" />
+        <Item Name="CommandBarShadow" Background="FF2D302D" />
+        <Item Name="CompletionBorder" Background="FF2D302D" />
+        <Item Name="ControlEditRequiredBackground" Background="FF2D302D" />
+        <Item Name="ControlOutline" Background="FF2D302D" />
+        <Item Name="DebuggerDataTipActiveBackground" Background="FF3F463F" />
+        <Item Name="DebuggerDataTipActiveBorder" Background="FF4C4D4C" />
+        <Item Name="DebuggerDataTipActiveHighlight" Background="FF4C4D4C" />
+        <Item Name="DebuggerDataTipActiveSeparator" Background="FF2D302D" />
+        <Item Name="DebuggerDataTipInactiveBackground" Background="FF2D302D" />
+        <Item Name="DebuggerDataTipInactiveBorder" Background="FF2D302D" />
+        <Item Name="DebuggerDataTipInactiveHighlight" Background="FF3F463F" />
+        <Item Name="DebuggerDataTipInactiveSeparator" Background="FF2D302D" />
+        <Item Name="DesignerBackground" Background="FF222422" />
+        <Item Name="DesignerSelectionDots" Background="FF4C4D4C" />
+        <Item Name="DesignerTray" Background="FF3F463F" />
+        <Item Name="EditorExpansionBorder" Background="FF2D302D" />
+        <Item Name="EditorExpansionFill" Background="FF222422" />
+        <Item Name="EditorExpansionLink" Background="FF008800" />
+        <Item Name="EnvironmentBackground" Background="FF2D302D" />
+        <Item Name="EnvironmentBackgroundGradientBegin" Background="FF2D302D" />
+        <Item Name="EnvironmentBackgroundGradientEnd" Background="FF2D302D" />
+        <Item Name="FileTabBorder" Background="FF2D302D" />
+        <Item Name="FileTabChannelBackground" Background="FF2D302D" />
+        <Item Name="FileTabGradientDark" Background="FF2D302D" />
+        <Item Name="FileTabGradientLight" Background="FF2D302D" />
+        <Item Name="FileTabSelectedBackground" Background="FF008800" />
+        <Item Name="FileTabSelectedBorder" Background="FF008800" />
+        <Item Name="GridHeadingBackground" Background="FF2D302D" />
+        <Item Name="HelpHowDoIPaneBackground" Background="FFE2E3E2" />
+        <Item Name="HelpHowDoIPaneLink" Background="FF008800" />
+        <Item Name="HelpHowDoITaskLink" Background="FF008800" />
+        <Item Name="HelpSearchFrameBackground" Background="FFE2E3E2" />
+        <Item Name="HelpSearchBorder" Background="FFB1BEB1" />
+        <Item Name="HelpSearchFilterBorder" Background="FFB1BEB1" />
+        <Item Name="HelpSearchProviderUnselectedBackground" Background="FFE2E3E2" />
+        <Item Name="HelpSearchPanelRules" Background="FFB1BEB1" />
+        <Item Name="MdiClientBorder" Background="FF2D302D" />
+        <Item Name="PanelBorder" Background="FF2D302D" />
+        <Item Name="PanelGradientDark" Background="FF222422" />
+        <Item Name="PanelGradientLight" Background="FF222422" />
+        <Item Name="PanelHoverOverCloseBorder" Background="FF3F463F" />
+        <Item Name="PanelHoverOverCloseFill" Background="FF3F463F" />
+        <Item Name="PanelSeparator" Background="FF2D302D" />
+        <Item Name="PanelSubGroupSeparator" Background="FF2D302D" />
+        <Item Name="PanelTitleBar" Background="FF222422" />
+        <Item Name="PanelTitleBarUnselected" Background="FF222422" />
+        <Item Name="ProjectDesignerBackgroundGradientBegin" Background="FF2D302D" />
+        <Item Name="ProjectDesignerBackgroundGradientEnd" Background="FF2D302D" />
+        <Item Name="ProjectDesignerBorderOutside" Background="FF2D302D" />
+        <Item Name="ProjectDesignerBorderInside" Background="FF2D302D" />
+        <Item Name="ProjectDesignerContentsBackground" Background="FF2D302D" />
+        <Item Name="ProjectDesignerTabBackgroundGradientBegin" Background="FF2D302D" />
+        <Item Name="ProjectDesignerTabBackgroundGradientEnd" Background="FF2D302D" />
+        <Item Name="ProjectDesignerTabSepBottomGradientBegin" Background="FF2D302D" />
+        <Item Name="ProjectDesignerTabSepBottomGradientEnd" Background="FF222422" />
+        <Item Name="ProjectDesignerTabSepTopGradientBegin" Background="FF222422" />
+        <Item Name="ProjectDesignerTabSepTopGradientEnd" Background="FF2D302D" />
+        <Item Name="SideBarBackground" Background="FF222422" />
+        <Item Name="SideBarGradientDark" Background="FF222422" />
+        <Item Name="SideBarGradientLight" Background="FF222422" />
+        <Item Name="Snaplines" Background="FF33A233" />
+        <Item Name="SortBackground" Background="FF222422" />
+        <Item Name="TitleBarActive" Background="FF2D302D" />
+        <Item Name="TitleBarActiveGradientBegin" Background="FF008800" />
+        <Item Name="TitleBarActiveGradientEnd" Background="FF008800" />
+        <Item Name="TitleBarInactive" Background="FF2D302D" />
+        <Item Name="TitleBarInactiveGradientBegin" Background="FF2D302D" />
+        <Item Name="TitleBarInactiveGradientEnd" Background="FF2D302D" />
+        <Item Name="ToolboxBackground" Background="FF222422" />
+        <Item Name="ToolboxDivider" Background="FF2D302D" />
+        <Item Name="ToolboxGradientDark" Background="FF222422" />
+        <Item Name="ToolboxGradientLight" Background="FF222422" />
+        <Item Name="ToolboxHeadingAccent" Background="FF222422" />
+        <Item Name="ToolboxHeadingBegin" Background="FF222422" />
+        <Item Name="ToolboxHeadingEnd" Background="FF222422" />
+        <Item Name="ToolboxIconHighlight" Background="FF222422" />
+        <Item Name="ToolboxIconShadow" Background="FF222422" />
+        <Item Name="ToolWindowBackground" Background="FF222422" />
+        <Item Name="ToolWindowBorder" Background="FF3F463F" />
+        <Item Name="ToolWindowButtonDown" Background="FF1B6826" />
+        <Item Name="ToolWindowButtonDownBorder" Background="FF1B6826" />
+        <Item Name="ToolWindowButtonHoverActive" Background="FF66BB67" />
+        <Item Name="ToolWindowButtonHoverActiveBorder" Background="FF66BB67" />
+        <Item Name="ToolWindowTabSelectedTab" Background="FF222422" />
+        <Item Name="ToolWindowTabBorder" Background="FF2D302D" />
+        <Item Name="ToolWindowTabGradientBegin" Background="FF2D302D" />
+        <Item Name="ToolWindowTabGradientEnd" Background="FF2D302D" />
+        <Item Name="SplashScreenBorder" Background="FF3F463F" />
+        <Item Name="FileTabSelectedGradientTop" Background="FF008800" />
+        <Item Name="FileTabSelectedGradientBottom" Background="FF008800" />
+        <Item Name="FileTabHotGradientTop" Background="FF33A233" />
+        <Item Name="FileTabHotGradientBottom" Background="FF33A233" />
+        <Item Name="FileTabDocumentBorderShadow" Background="FF008800" />
+        <Item Name="FileTabDocumentBorderBackground" Background="FF008800" />
+        <Item Name="FileTabDocumentBorderHighlight" Background="FF008800" />
+        <Item Name="BrandedUIBorder" Background="FF3F463F" />
+        <Item Name="BrandedUIBackground" Background="FF2D302D" />
+        <Item Name="BrandedUIFill" Background="FF222422" />
+        <Item Name="Medium" Background="002D302D" />
+        <Item Name="Dark" Background="003F463F" />
+        <Item Name="CommandBarToolBarSeparatorHighlight" Background="FF4C4D4C" />
+        <Item Name="CommandBarSelectedIconDisabled" Background="FF2D302D" />
+        <Item Name="CommandBarSelectedIconDisabledBorder" Background="FF3F463F" />
+        <Item Name="TitleBarActiveBorder" Background="FF008800" />
+        <Item Name="TitleBarDragHandle" Background="FF4C4D4C" />
+        <Item Name="ToolWindowFloatingFrameInactive" Foreground="99999999" Background="FF2D302D" />
+        <Item Name="RaftedWindowButtonDown" Background="FF008800" />
+        <Item Name="RaftedWindowButtonDownBorder" Background="FF008800" />
+        <Item Name="FileTabButtonDownSelectedInactiveBorder" Background="FF171917" />
+        <Item Name="FileTabProvisionalInactive" Background="FF2D302D" />
+        <Item Name="FileTabProvisionalInactiveBorder" Background="FF2D302D" />
+        <Item Name="FileTabProvisionalSelectedInactive" Background="FF3F463F" />
+        <Item Name="FileTabProvisionalSelectedInactiveBorder" Background="FF3F463F" />
+        <Item Name="FileTabButtonProvisionalSelectedInactiveGlyph" Background="FF6E6F6E" />
+        <Item Name="FileTabButtonProvisionalDownSelectedInactive" Background="FF171917" />
+        <Item Name="FileTabButtonProvisionalDownSelectedInactiveBorder" Background="FF171917" />
+        <Item Name="FileTabButtonSelectedInactiveGlyph" Background="FF6E6F6E" />
+        <Item Name="FileTabButtonHoverInactive" Background="FF66BB67" />
+        <Item Name="FileTabButtonHoverInactiveBorder" Background="FF66BB67" />
+        <Item Name="FileTabButtonDownInactive" Background="FF1B6826" />
+        <Item Name="FileTabButtonDownInactiveBorder" Background="FF1B6826" />
+        <Item Name="FileTabButtonHoverSelectedActive" Background="FF33A233" />
+        <Item Name="FileTabButtonHoverSelectedActiveBorder" Background="FF33A233" />
+        <Item Name="FileTabButtonDownSelectedActive" Background="FF1B6826" />
+        <Item Name="FileTabButtonDownSelectedActiveBorder" Background="FF1B6826" />
+        <Item Name="FileTabButtonDownSelectedInactive" Background="FF171917" />
+        <Item Name="FileTabInactiveBorder" Background="FF3F463F" />
+        <Item Name="CommandBarSplitButtonSeparator" Background="FF2D302D" />
+        <Item Name="DropDownButtonMouseDownSeparator" Background="FF3F463F" />
+        <Item Name="DropDownButtonMouseOverBackground" Background="FF222422" />
+        <Item Name="DropDownButtonMouseOverSeparator" Background="FF008800" />
+        <Item Name="DropDownButtonMouseDownBackground" Background="FF008800" />
+        <Item Name="ComboBoxButtonMouseDownSeparator" Background="FF008800" />
+        <Item Name="ComboBoxButtonMouseOverBackground" Background="FF222422" />
+        <Item Name="ComboBoxButtonMouseOverSeparator" Background="FF008800" />
+        <Item Name="ComboBoxButtonMouseDownBackground" Background="FF008800" />
+        <Item Name="ComboBoxSelection" Background="FF008800" />
+        <Item Name="CommandBarSelectedIconBorder" Background="FF008800" />
+        <Item Name="CommandBarSelectedIcon" Background="FF2D302D" />
+        <Item Name="QuickCustomizeButton" Background="FF2D302D" />
+        <Item Name="QuickCustomizeButtonBorder" Background="FF008800" />
+        <Item Name="QuickCustomizeButtonGlyphHover" Background="FF008800" />
+        <Item Name="CommandBarMouseOverUnfocused" Background="FF3F463F" />
+        <Item Name="CommandBarMenuMouseOverSeparator" Background="FF2D302D" />
+        <Item Name="DocWellOverflowButtonMouseOverGlyph" Background="FF008800" />
+        <Item Name="DocWellOverflowButtonBackground" Background="FF2D302D" />
+        <Item Name="DocWellOverflowButtonMouseDownBackground" Background="FF008800" />
+        <Item Name="DocWellOverflowButtonMouseDownBorder" Background="FF008800" />
+        <Item Name="DocWellOverflowButtonMouseOverBackground" Background="FF3F463F" />
+        <Item Name="DocWellOverflowButtonMouseOverBorder" Background="FF3F463F" />
+        <Item Name="ToolWindowTabSeparator" Background="FF3F463F" />
+        <Item Name="ToolboxDisabledContent" Foreground="FF656565" Background="FF222422" />
+        <Item Name="ToolboxContentMouseOver" Foreground="FFF1F1F1" Background="FF3F463F" />
+        <Item Name="ToolboxContent" Foreground="FFF1F1F1" Background="FF222422" />
+        <Item Name="ToolboxDisabledContentMouseOver" Foreground="FF656565" Background="FF3F463F" />
+        <Item Name="MainWindowInactiveBorder" Background="FF3F463F" />
+        <Item Name="MainWindowActiveCaption" Foreground="FF999999" Background="FF2D302D" />
+        <Item Name="MainWindowInactiveCaption" Foreground="99999999" Background="FF2D302D" />
+        <Item Name="MainWindowButtonDown" Background="FF008800" />
+        <Item Name="MainWindowButtonDownBorder" Background="FF008800" />
+        <Item Name="MainWindowSolutionNameActiveBackground" Background="FF222422" />
+        <Item Name="MainWindowSolutionNameInactiveBackground" Background="FF222422" />
+        <Item Name="StatusBarDefault" Foreground="FFFFFFFF" Background="FF008800" />
+        <Item Name="StatusBarBuilding" Foreground="FFFFFFFF" Background="FF1B6826" />
+        <Item Name="MainWindowActiveBuildingBorder" Background="FF1B6826" />
+        <Item Name="MainWindowActiveDefaultBorder" Background="FF008800" />
+        <Item Name="VerticalResizeGripEnd" Background="FF2D302D" />
+        <Item Name="HorizontalResizeGrip" Background="FF2D302D" />
+        <Item Name="VerticalResizeGripBegin" Background="FF2D302D" />
+        <Item Name="VerticalResizeGripMiddle" Background="FF2D302D" />
+        <Item Name="TitleBarDragHandleActive" Background="FF6FB173" />
+        <Item Name="CommandBarMenuItemMouseOverBorder" Background="FF2D302D" />
+        <Item Name="CommandBarMenuItemMouseOver" Foreground="FFF1F1F1" Background="FF2D302D" />
+        <Item Name="ScrollBarArrowGlyphPressed" Background="FF008800" />
+        <Item Name="ScrollBarArrowGlyphDisabled" Background="FF595B59" />
+        <Item Name="ScrollBarArrowGlyphMouseOver" Background="FF33A233" />
+        <Item Name="ScrollBarThumbDisabled" Background="FF3F463F" />
+        <Item Name="ToolTipBorder" Background="FF4C4D4C" />
+        <Item Name="ToolTip" Foreground="FFF1F1F1" Background="FF3F463F" />
+        <Item Name="IconActionFill" Background="FF99D59A" />
+        <Item Name="CommandBarSplitButtonMouseOverGlyph" Background="FF008800" />
+        <Item Name="CommandBarMenuMouseOverGlyph" Background="FF008800" />
+        <Item Name="AutoHideResizeGripDisabled" Background="FF3F463F" />
+        <Item Name="ComboBoxFocusedButtonSeparator" Background="FF008800" />
+        <Item Name="ComboBoxFocusedButtonBackground" Background="FF222422" />
+        <Item Name="ComboBoxFocusedGlyph" Background="FF008800" />
+        <Item Name="ComboBoxFocusedBackground" Background="FF3F463F" />
+        <Item Name="ComboBoxFocusedBorder" Background="FF008800" />
+        <Item Name="ComboBoxItemMouseOverBackground" Background="FF3F463F" />
+        <Item Name="ComboBoxItemMouseOverBorder" Background="FF3F463F" />
+        <Item Name="FileTabBackground" Background="FF2D302D" />
+        <Item Name="ToolWindowTabSelectedBorder" Background="FF222422" />
+        <Item Name="ToolWindowContentGrid" Background="FF2D302D" />
+        <Item Name="EditorAdditionalContentBorder" Background="FF2D302D" />
+        <Item Name="FileTabPrimarySeparator" Background="FF2D302D" />
+        <Item Name="FileTabSecondarySeparator" Background="FF4C4D4C" />
+        <Item Name="FileTabGroupTitleBackground" Background="FF2D302D" />
+        <Item Name="FileTabActiveGroupTitleBackground" Background="FF222422" />
+        <Item Name="FileTabActiveGroupBackground" Background="FF2D302D" />
+    </Category>
+    <Category Name="Find" GUID="{4370282e-987e-4ac4-ad14-5ffed2ad1e14}">
+        <Item Name="DropDownMenuMouseDown" Foreground="FFFFFFFF" Background="FF008800" />
+        <Item Name="AlertBorder" Background="FF008800" />
+        <Item Name="UnfocusedDropdown" Foreground="FF999999" Background="FF2D302D" />
+    </Category>
+    <Category Name="GraphicsDesigners" GUID="{9cfdb8b3-48aa-4715-ac38-dde2968d204f}">
+        <Item Name="ColorBackgroundGradientStart" Background="FF222422" />
+        <Item Name="ColorBackgroundGradientEnd" Background="FF222422" />
+        <Item Name="ColorLassoRectangle" Background="FF008800" />
+        <Item Name="ColorLassoOutline" Background="FF008800" />
+        <Item Name="ColorInputPortBase" Background="FF001900" />
+        <Item Name="ColorBlueChannel" Background="FF001900" />
+        <Item Name="ColorLinkLiveHighlight" Background="FF008800" />
+        <Item Name="ColorZAxis" Background="FF008800" />
+        <Item Name="ColorVertexNormals" Background="FF008800" />
+        <Item Name="ColorAdditionalSelectedWireframe" Background="FF008800" />
+        <Item Name="InactiveSelectedBackgroundColor" Background="FF3F463F" />
+        <Item Name="MouseOverBackgroundColor" Background="FF4C4D4C" />
+        <Item Name="DetailPane" Background="FF2D302D" />
+        <Item Name="FocusDots" Foreground="FF4C4D4C" />
+        <Item Name="GridColumnSizer" Background="FF3F463F" />
+        <Item Name="GridHeaderHover" Foreground="FF999999" Background="FF4C4D4C" />
+        <Item Name="Menu" Background="FF171917" />
+        <Item Name="MenuBorder" Background="FF2D302D" />
+        <Item Name="MenuHover" Foreground="FFF1F1F1" Background="FF2D302D" />
+        <Item Name="Splitter" Background="FF2D302D" />
+        <Item Name="NetworkHeaderBackground" Background="FF2D302D" />
+        <Item Name="DropDownButton" Background="FF2D302D" />
+        <Item Name="DropDownButtonHover" Background="FF3F463F" />
+        <Item Name="SnapshotButton" Background="FF171917" />
+        <Item Name="SnapshotButtonActive" Foreground="FFFFFFFF" Background="FF008800" />
+        <Item Name="SnapshotButtonBorderHover" Background="FF2D302D" />
+        <Item Name="SnapshotButtonDisabled" Background="FF2D302D" />
+        <Item Name="SnapshotButtonHover" Foreground="FF008800" Background="FF2D302D" />
+        <Item Name="SnapshotMessagesBorder" Background="FF2D302D" />
+        <Item Name="SnapshotTile" Background="FF171917" />
+        <Item Name="SnapshotTileHeader" Background="FF2D302D" />
+        <Item Name="TabHeader" Background="FF2D302D" />
+        <Item Name="TabHover" Foreground="FF55AAFF" Background="FF2D302D" />
+    </Category>
+    <Category Name="Header" GUID="{4997f547-1379-456e-b985-2f413cdfa536}">
+        <Item Name="Default" Foreground="FFF1F1F1" Background="FF222422" />
+        <Item Name="MouseOver" Foreground="FFF1F1F1" Background="FF3F463F" />
+        <Item Name="MouseDown" Foreground="FFFFFFFF" Background="FF008800" />
+        <Item Name="SeparatorLine" Background="FF3F463F" />
+    </Category>
+    <Category Name="InfoBar" GUID="{832df9d1-d9a9-4eb7-ad13-ff5b421f7432}">
+        <Item Name="InfoBarBorder" Background="FF3F463F" />
+        <Item Name="Button" Foreground="FF1E1E1E" Background="FFEEEFEE" />
+        <Item Name="ButtonMouseOverBorder" Background="FF1B6826" />
+        <Item Name="ButtonDisabledBorder" Background="FFB1BEB1" />
+        <Item Name="ButtonMouseDown" Foreground="FFFFFFFF" Background="FF1B6826" />
+        <Item Name="ButtonMouseDownBorder" Background="FF1B6826" />
+        <Item Name="ButtonFocusBorder" Background="FF1B6826" />
+        <Item Name="ButtonDisabled" Foreground="FFB1B2B1" Background="FFEEEFEE" />
+    </Category>
+    <Category Name="InformationBadge" GUID="{63f9718c-889b-4814-a3b4-6e81d14f1156}">
+        <Item Name="Background" Background="FF3F463F" />
+        <Item Name="BackgroundHover" Background="FF008800" />
+        <Item Name="BackgroundPressed" Background="FF008800" />
+        <Item Name="BackgroundFocused" Background="FF008800" />
+    </Category>
+    <Category Name="IntelliTrace" GUID="{ffa74b06-e011-49be-a58c-3efaa4b957d5}">
+        <Item Name="ReportHeaderActive" Foreground="FFF1F1F1" Background="FF3F463F" />
+        <Item Name="DebugHistoryControlPanel" Foreground="FFD2D3D2" Background="FF222422" />
+    </Category>
+    <Category Name="ListViewGrid" GUID="{63dec435-18e1-4e62-a9a9-0495fcb524a3}">
+        <Item Name="Border" Background="FF8B968B" />
+    </Category>
+    <Category Name="ManifestDesigner" GUID="{b239f458-9f75-4376-959b-4d48b89337f4}">
+        <Item Name="TabActive" Foreground="FFF1F1F1" Background="FF222422" />
+        <Item Name="TabInactive" Foreground="FFF1F1F1" Background="FF2D302D" />
+        <Item Name="TabMouseOver" Foreground="FFF1F1F1" Background="FF3F463F" />
+        <Item Name="DescriptionPane" Foreground="FFF1F1F1" Background="FF2D302D" />
+        <Item Name="Background" Foreground="FFF1F1F1" Background="FF222422" />
+        <Item Name="Watermark" Foreground="FF999999" Background="FF222422" />
+    </Category>
+    <Category Name="NavigateTo" GUID="{d58e4793-9fe6-450b-b200-b93a3c17aa12}">
+        <Item Name="ResultListItem" Foreground="FFFFFFFF" Background="FF004F00" />
+        <Item Name="ResultListBorder" Background="FF2D302D" />
+        <Item Name="ResultListAccentBorder" Background="FF008800" />
+        <Item Name="ResultList" Foreground="FFF1F1F1" Background="FF222422" />
+    </Category>
+    <Category Name="NewProjectDialog" GUID="{c36c426e-31c9-4048-84cf-31c111d65ec0}">
+        <Item Name="Background" Background="FF2D302D" />
+        <Item Name="Wonderbar" Foreground="FFF1F1F1" Background="FF2D302D" />
+        <Item Name="WonderbarTreeInactiveSelected" Foreground="FFF1F1F1" Background="FF3F463F" />
+        <Item Name="WonderbarTreeSelected" Foreground="FFFFFFFF" Background="FF008800" />
+        <Item Name="Details" Foreground="FFF1F1F1" Background="FF2D302D" />
+        <Item Name="Content" Foreground="FFF1F1F1" Background="FF222422" />
+        <Item Name="ContentMouseOver" Foreground="FFF1F1F1" Background="FF4C4D4C" />
+        <Item Name="ContentSelected" Foreground="FFFFFFFF" Background="FF008800" />
+        <Item Name="ContentSelectedBorder" Background="FF008800" />
+        <Item Name="ContentInactiveSelected" Foreground="FFF1F1F1" Background="FF3F463F" />
+        <Item Name="WonderbarMouseOver" Foreground="FFF1F1F1" Background="FF222422" />
+        <Item Name="TreeArrow" Foreground="FFF1F1F1" Background="002D302D" />
+        <Item Name="TreeArrowMouseOver" Foreground="FF008800" Background="00000000" />
+        <Item Name="ImageBorder" Foreground="FFF1F1F1" Background="FF3F463F" />
+        <Item Name="TextBoxBackground" Foreground="FFF1F1F1" Background="FF3F463F" />
+        <Item Name="TextBoxBorder" Background="FF3F463F" />
+        <Item Name="TextBoxDisabled" Foreground="FF999999" Background="FF2D302D" />
+        <Item Name="TextBoxDisabledBorder" Background="FF3F463F" />
+        <Item Name="TextBoxFocused" Foreground="FFFFFFFF" Background="FF3F463F" />
+        <Item Name="BackgroundLowerRegion" Foreground="FFF1F1F1" Background="FF222422" />
+        <Item Name="WizardBackgroundLowerRegion" Background="FF222422" />
+        <Item Name="TextBoxMouseOverBorder" Background="FF3F463F" />
+        <Item Name="CheckBoxMouseOver" Foreground="FFF1F1F1" Background="FF2D302D" />
+        <Item Name="CheckBox" Foreground="FF999999" Background="FF2D302D" />
+    </Category>
+    <Category Name="NotificationBubble" GUID="{800c5171-6625-4a74-b3e2-a6cd0b4698d4}">
+        <Item Name="NotificationBubbleBorder" Background="FF99D59A" />
+        <Item Name="NotificationBubbleBackground" Background="FF3F463F" />
+        <Item Name="NotificationBubbleCloseButtonHoverGlyph" Foreground="FF66BB67" />
+        <Item Name="NotificationBubbleCloseButtonPressedGlyph" Foreground="FF66BB67" />
+        <Item Name="NotificationBubbleWindowButtonHover" Background="FF3F463F" />
+        <Item Name="NotificationBubbleWindowButtonHoverBorder" Background="FF3F463F" />
+        <Item Name="NotificationBubbleWindowButtonDown" Background="FF008800" />
+        <Item Name="NotificationBubbleWindowButtonDownBorder" Background="FF008800" />
+        <Item Name="NotificationBubbleWindowPanel" Foreground="FFF1F1F1" Background="FF222422" />
+    </Category>
+    <Category Name="PackageManifestEditor" GUID="{3f27d653-86e6-4a04-adb6-a35efa6c8f05}">
+        <Item Name="CategoryTab" Foreground="FFF1F1F1" Background="FF222422" />
+        <Item Name="MouseOverCategoryTab" Foreground="FFF1F1F1" Background="FF4C4D4C" />
+        <Item Name="TextBoxBackground" Foreground="FFF1F1F1" Background="FF3F463F" />
+        <Item Name="TextBoxBorder" Background="FF3F463F" />
+        <Item Name="TextBoxDisabled" Foreground="FF656565" Background="FF2D302D" />
+        <Item Name="TextBoxDisabledBorder" Background="FF3F463F" />
+        <Item Name="TextBoxMouseOverBorder" Background="FF3F463F" />
+        <Item Name="EditorContent" Foreground="FFF1F1F1" Background="FF222422" />
+        <Item Name="CheckBoxMouseOver" Foreground="FFF1F1F1" Background="FF222422" />
+        <Item Name="CheckBox" Foreground="FF999999" Background="FF222422" />
+    </Category>
+    <Category Name="ProjectDesigner" GUID="{ef1a2d2c-5d16-4ddb-8d04-79d0f6c1c56e}">
+        <Item Name="Background" Background="FF222422" />
+        <Item Name="SelectedCategoryTab" Foreground="FFFFFFFF" Background="FF008800" />
+        <Item Name="CategoryTab" Foreground="FFF1F1F1" Background="FF222422" />
+        <Item Name="MouseOverCategoryTab" Foreground="FFF1F1F1" Background="FF4C4D4C" />
+    </Category>
+    <Category Name="Promotion" GUID="{8fafb063-4106-4756-81dc-d7769f24d056}">
+        <Item Name="LightboxDialogBackgroundPanel" Background="FF3F463F" />
+        <Item Name="LightboxDialogButton" Foreground="FFFFFFFF" Background="FF008800" />
+        <Item Name="LightboxDialogButtonBorder" Background="FF008800" />
+        <Item Name="LightboxDialogButtonPressed" Foreground="FFFFFFFF" Background="FF1B6826" />
+        <Item Name="LightboxDialogButtonBorderPressed" Background="FF1B6826" />
+        <Item Name="LightboxDialogButtonHover" Foreground="FFFFFFFF" Background="FF1B6826" />
+        <Item Name="LightboxDialogButtonBorderHover" Background="FF1B6826" />
+        <Item Name="LightboxDialogButtonFocused" Foreground="FFFFFFFF" Background="FF1B6826" />
+        <Item Name="LightboxDialogButtonBorderFocused" Background="FF1B6826" />
+        <Item Name="LightboxDialogButtonDisabled" Foreground="FF656565" Background="FF2D302D" />
+        <Item Name="LightboxDialogButtonBorderDisabled" Background="FF3F463F" />
+        <Item Name="LightboxDialogHeading" Foreground="FFFFFFFF" Background="FF008800" />
+    </Category>
+    <Category Name="SearchControl" GUID="{f1095fad-881f-45f1-8580-589e10325eb8}">
+        <Item Name="MouseOverBackground" Foreground="FFF1F1F1" Background="FF3F463F" />
+        <Item Name="MouseOverBorder" Background="FF008800" />
+        <Item Name="DisabledBorder" Background="FF3F463F" />
+        <Item Name="ActionButtonMouseOver" Background="FF2D302D" />
+        <Item Name="ActionButtonMouseDown" Background="FF008800" />
+        <Item Name="ClearGlyph" Background="FF008800" />
+        <Item Name="Unfocused" Foreground="FFD2D3D2" Background="FF2D302D" />
+        <Item Name="UnfocusedBorder" Background="FF3F463F" />
+        <Item Name="Disabled" Foreground="FF656565" Background="FF2D302D" />
+        <Item Name="MouseOverDropDownButton" Background="FF2D302D" />
+        <Item Name="MouseOverDropDownButtonGlyph" Background="FF008800" />
+        <Item Name="MouseDownDropDownButton" Background="FF008800" />
+        <Item Name="UnfocusedDropDownButton" Background="FF3F463F" />
+        <Item Name="PopupBorder" Background="FF2D302D" />
+        <Item Name="PopupItemsListBackgroundGradientBegin" Background="FF171917" />
+        <Item Name="PopupItemsListBackgroundGradientEnd" Background="FF171917" />
+        <Item Name="PopupSectionBackgroundGradientEnd" Background="FF171917" />
+        <Item Name="PopupSectionHeaderSeparator" Background="FF2D302D" />
+        <Item Name="PopupSectionHeaderGradientBegin" Background="FF171917" />
+        <Item Name="PopupSectionHeaderGradientEnd" Background="FF171917" />
+        <Item Name="PopupSectionBackgroundGradientBegin" Background="FF171917" />
+        <Item Name="PopupButtonMouseDownBackgroundGradientEnd" Background="FF008800" />
+        <Item Name="PopupButtonMouseDownBorder" Background="FF008800" />
+        <Item Name="PopupButtonMouseDownBackgroundGradientBegin" Background="FF008800" />
+        <Item Name="PopupButtonMouseDownBackgroundGradientMiddle1" Background="FF008800" />
+        <Item Name="PopupButtonMouseDownBackgroundGradientMiddle2" Background="FF008800" />
+        <Item Name="MouseOverDropDownButtonBorder" Background="FF008800" />
+        <Item Name="UnfocusedDropDownButtonBorder" Background="FF3F463F" />
+        <Item Name="MouseDownDropDownButtonBorder" Background="FF008800" />
+        <Item Name="ActionButtonMouseDownBorder" Background="FF008800" />
+        <Item Name="ActionButtonMouseOverBorder" Background="FF008800" />
+        <Item Name="SearchActiveBackground" Foreground="FFF1F1F1" Background="FF3F463F" />
+        <Item Name="ActionButtonMouseOverGlyph" Background="FF008800" />
+        <Item Name="DropDownSeparator" Background="003F463F" />
+        <Item Name="MouseOverDropDownSeparator" Background="FF008800" />
+        <Item Name="FocusedDropDownButton" Background="FF2D302D" />
+        <Item Name="FocusedDropDownButtonBorder" Background="FF008800" />
+        <Item Name="FocusedDropDownButtonGlyph" Background="FF008800" />
+        <Item Name="FocusedDropDownSeparator" Background="FF008800" />
+        <Item Name="FocusedBorder" Background="FF008800" />
+        <Item Name="FocusedBackground" Foreground="FFF1F1F1" Background="FF3F463F" />
+        <Item Name="MouseOverClearGlyph" Background="FF008800" />
+        <Item Name="FocusedClearGlyph" Background="FF008800" />
+    </Category>
+    <Category Name="SharePointTools" GUID="{7e8da76d-24b4-447c-8ece-ff8e0e73f0d4}">
+        <Item Name="DesignerWindow" Foreground="FF000000" Background="FF2D302D" />
+        <Item Name="DesignerDefaultTab" Foreground="FFF1F1F1" Background="FF2D302D" />
+        <Item Name="DesignerMouseOverTab" Foreground="FFF1F1F1" Background="FF3F463F" />
+    </Category>
+    <Category Name="StartPage" GUID="{65d78f35-869e-4bf3-8e52-991fee554a16}">
+        <Item Name="StartPageBackgroundGradientBegin" Background="FF3F463F" />
+        <Item Name="StartPageBackgroundGradientEnd" Background="FF2D302D" />
+        <Item Name="StartPageHeadingText" Foreground="FF99D59A" />
+        <Item Name="StartPageListItemPressed" Foreground="FFFFFFFF" Background="FF008800" />
+        <Item Name="StartPageSupportText" Foreground="FFB1BEB1" />
+        <Item Name="StartPageSupportTextHover" Foreground="FFB1BEB1" />
+        <Item Name="StartPageSupportTextPressed" Foreground="FFB1BEB1" />
+        <Item Name="StartPageListItemGlyphHover" Background="FF1B6826" />
+        <Item Name="StartPageNewsBackground" Background="FF2D302D" />
+        <Item Name="StartPageTimeStamp" Foreground="FFB1BEB1" />
+        <Item Name="StartPageListItemHover" Foreground="FFF1F1F1" Background="FF4C4D4C" />
+        <Item Name="VideoRSSItemHover" Background="FF3F463F" />
+        <Item Name="VideoRSSItemTitleMouseOver" Foreground="FF008800" />
+        <Item Name="VideoRSSItemTitlePressed" Foreground="FF99D59A" />
+        <Item Name="VideoRSSItemDuration" Foreground="FFB1BEB1" />
+        <Item Name="VideoRSSItemDurationMouseOver" Foreground="FFB1BEB1" />
+        <Item Name="VideoRSSItemDurationPressed" Foreground="FFB1BEB1" />
+        <Item Name="StartPageCheckBoxMouseOverText" Foreground="FF008800" />
+        <Item Name="StartPageCheckBoxPressedText" Foreground="FF008800" />
+        <Item Name="StartPageCheckBoxMouseOverBackground" Background="FF222422" />
+        <Item Name="StartPageCheckBoxPressedBackground" Background="FF008800" />
+        <Item Name="StartPageCheckBoxMouseOverBorder" Foreground="FF008800" />
+        <Item Name="StartPageCheckBoxPressedBorder" Foreground="FF008800" />
+        <Item Name="StartPageCheckBoxMouseOverCheckMark" Foreground="FF008800" />
+        <Item Name="StartPageButton" Foreground="FFF1F1F1" Background="FF3F463F" />
+        <Item Name="StartPageButtonBorder" Foreground="FF008800" />
+        <Item Name="StartPageButtonMouseOverBorder" Foreground="FF008800" />
+        <Item Name="StartPageButtonMouseDown" Foreground="FFFFFFFF" Background="FF008800" />
+        <Item Name="StartPageButtonMouseDownBorder" Foreground="FF008800" />
+        <Item Name="StartPageDefaultBannerBackground" Background="FF222422" />
+        <Item Name="StartPageLeftPanelBackground" Background="FF2D302D" />
+        <Item Name="StartPageNewText" Foreground="FF222422" Background="FFFF8C00" />
+        <Item Name="StartPageNotificationDotBorder" Foreground="FF4C4D4C" />
+        <Item Name="DefaultBannerLink" Foreground="FF008800" />
+        <Item Name="DefaultBannerLinkHover" Foreground="FF99D59A" />
+        <Item Name="DefaultBannerLinkPressed" Foreground="FF008800" />
+        <Item Name="StartPageTitleText" Foreground="FF99D59A" />
+        <Item Name="StartPageExpander" Foreground="FFFFFFFF" Background="FF4C4D4C" />
+        <Item Name="StartPageExpanderPressed" Foreground="FFFFFFFF" Background="FF4C4D4C" />
+    </Category>
+    <Category Name="TaskRunnerExplorerControls" GUID="{abb9394c-8c5a-447e-b1b7-965e0b6abbc3}">
+        <Item Name="FocusVisual" Foreground="FFF1F1F1" Background="FF222422" />
+        <Item Name="Button" Foreground="FFF1F1F1" Background="FF3F463F" />
+        <Item Name="ButtonPressed" Foreground="FFF1F1F1" Background="FF008800" />
+        <Item Name="ButtonBorderPressed" Background="FF008800" />
+        <Item Name="ButtonHover" Foreground="FFF1F1F1" Background="FF3F463F" />
+        <Item Name="ButtonBorderHover" Background="FF008800" />
+        <Item Name="ButtonDisabled" Foreground="FF656565" Background="FF2D302D" />
+        <Item Name="ButtonBorderDisabled" Background="FF3F463F" />
+        <Item Name="ButtonFocused" Foreground="FFF1F1F1" Background="FF3F463F" />
+        <Item Name="ButtonBorderFocused" Background="FF008800" />
+        <Item Name="CheckBoxTextHover" Background="FF008800" />
+        <Item Name="CheckBoxTextPressed" Background="FF008800" />
+        <Item Name="CheckBoxTextFocused" Background="FF008800" />
+        <Item Name="CheckBoxBackground" Background="FF222422" />
+        <Item Name="CheckBoxBackgroundHover" Background="FF222422" />
+        <Item Name="CheckBoxBackgroundPressed" Background="FF008800" />
+        <Item Name="CheckBoxBackgroundDisabled" Background="FF2D302D" />
+        <Item Name="CheckBoxBackgroundFocused" Background="FF222422" />
+        <Item Name="CheckBoxBorderHover" Background="FF008800" />
+        <Item Name="CheckBoxBorderPressed" Background="FF008800" />
+        <Item Name="CheckBoxBorderDisabled" Background="FF3F463F" />
+        <Item Name="CheckBoxBorderFocused" Background="FF008800" />
+        <Item Name="ComboBoxBackground" Background="FF2D302D" />
+        <Item Name="ComboBoxBorder" Background="FF3F463F" />
+        <Item Name="ComboBoxSeparator" Background="FF2D302D" />
+        <Item Name="ComboBoxGlyphBackground" Background="FF2D302D" />
+        <Item Name="ComboBoxBackgroundDisabled" Background="FF2D302D" />
+        <Item Name="ComboBoxBorderDisabled" Background="FF3F463F" />
+        <Item Name="ComboBoxSeparatorDisabled" Background="FF2D302D" />
+        <Item Name="ComboBoxGlyphBackgroundDisabled" Background="FF2D302D" />
+        <Item Name="ComboBoxBackgroundPressed" Background="FF3F463F" />
+        <Item Name="ComboBoxBorderPressed" Background="FF008800" />
+        <Item Name="ComboBoxSeparatorPressed" Background="FF008800" />
+        <Item Name="ComboBoxGlyphBackgroundPressed" Background="FF008800" />
+        <Item Name="ComboBoxBackgroundHover" Background="FF3F463F" />
+        <Item Name="ComboBoxBorderHover" Background="FF008800" />
+        <Item Name="ComboBoxSeparatorHover" Background="FF008800" />
+        <Item Name="ComboBoxGlyphHover" Background="FF008800" />
+        <Item Name="ComboBoxGlyphBackgroundHover" Background="FF222422" />
+        <Item Name="ComboBoxBackgroundFocused" Background="FF3F463F" />
+        <Item Name="ComboBoxBorderFocused" Background="FF008800" />
+        <Item Name="ComboBoxSeparatorFocused" Background="FF008800" />
+        <Item Name="ComboBoxGlyphFocused" Background="FF008800" />
+        <Item Name="ComboBoxGlyphBackgroundFocused" Background="FF3F463F" />
+        <Item Name="ComboBoxListItemBackgroundHover" Background="FF3F463F" />
+        <Item Name="ComboBoxListItemBorderHover" Background="FF3F463F" />
+        <Item Name="ComboBoxListBorder" Background="FF3F463F" />
+        <Item Name="ComboBoxSelection" Background="FF008800" />
+        <Item Name="ComboBoxTextInputSelection" Background="66008800" />
+        <Item Name="SecondaryTabBackground" Background="FF3F463F" />
+        <Item Name="SecondaryTabBorder" Background="FF3F463F" />
+        <Item Name="SecondaryTabHoverBackground" Background="FF2D302D" />
+        <Item Name="SecondaryTabHoverBorder" Background="FF2D302D" />
+        <Item Name="SecondaryTabHoverGlyphHoverBackground" Background="FF33A233" />
+        <Item Name="SecondaryTabHoverGlyphHoverBorder" Background="FF33A233" />
+        <Item Name="SecondaryTabHoverGlyphPressedBackground" Background="FF1B6826" />
+        <Item Name="SecondaryTabHoverGlyphPressedBorder" Background="FF1B6826" />
+        <Item Name="SecondaryTabPressedBackground" Background="FF2D302D" />
+        <Item Name="SecondaryTabPressedBorder" Background="FF2D302D" />
+        <Item Name="SecondarySelectedTabBackground" Background="FF222422" />
+        <Item Name="SecondarySelectedTabBorder" Background="FF3F463F" />
+        <Item Name="SecondarySelectedTabGlyphHoverBackground" Background="FF33A233" />
+        <Item Name="SecondarySelectedTabGlyphHoverBorder" Background="FF33A233" />
+        <Item Name="SecondarySelectedTabGlyphPressedBackground" Background="FF1B6826" />
+        <Item Name="SecondarySelectedTabGlyphPressedBorder" Background="FF1B6826" />
+        <Item Name="SecondaryTabFocusedBackground" Background="FF2D302D" />
+        <Item Name="SecondaryTabFocusedBorder" Background="FF2D302D" />
+        <Item Name="SecondaryTabFocusedGlyphHoverBackground" Background="FF33A233" />
+        <Item Name="SecondaryTabFocusedGlyphHoverBorder" Background="FF33A233" />
+        <Item Name="SecondaryTabFocusedGlyphPressedBackground" Background="FF1B6826" />
+        <Item Name="SecondaryTabFocusedGlyphPressedBorder" Background="FF1B6826" />
+        <Item Name="CustomTabHoverBackground" Background="FF2D302D" />
+        <Item Name="CustomTabHoverBorder" Background="FF2D302D" />
+        <Item Name="CustomTabPressedBackground" Background="FF2D302D" />
+        <Item Name="CustomTabPressedBorder" Background="FF2D302D" />
+        <Item Name="CustomSelectedTabBackground" Background="FF222422" />
+        <Item Name="CustomSelectedTabBorder" Background="FF3F463F" />
+    </Category>
+    <Category Name="TeamExplorer" GUID="{4aff231b-f28a-44f0-a66b-1beeb17cb920}">
+        <Item Name="ActionLinkItem" Foreground="FF008800" />
+        <Item Name="ActionLinkItemSelectedNotFocused" Foreground="FF008800" />
+        <Item Name="ActionLinkItemHover" Foreground="FF008800" />
+        <Item Name="TextBoxBorder" Background="FF656E65" />
+        <Item Name="RequiredTextBoxBorder" Background="FF3F463F" />
+        <Item Name="CodeReviewDiscussionItemSelected" Foreground="FFF1F1F1" Background="FF2D302D" />
+        <Item Name="CodeReviewDiscussionSelectedActionLink" Background="FF008800" />
+        <Item Name="ButtonDisabledBorder" Background="FF3F463F" />
+        <Item Name="ButtonPressed" Foreground="FFFFFFFF" Background="FF008800" />
+        <Item Name="ButtonMouseOverBorder" Background="FF656E65" />
+        <Item Name="ButtonMouseOver" Foreground="FFF1F1F1" Background="FF595B59" />
+        <Item Name="ButtonDisabled" Foreground="FF6D6D6D" Background="FF222422" />
+        <Item Name="ButtonBorder" Background="FF595B59" />
+        <Item Name="Button" Foreground="FFF1F1F1" Background="FF3F463F" />
+        <Item Name="ButtonPressedBorder" Background="FF33A233" />
+        <Item Name="CallToActionButton" Foreground="FFFFFFFF" Background="FF008800" />
+        <Item Name="CallToActionButtonBorder" Background="FF008800" />
+        <Item Name="CallToActionButtonDisabled" Foreground="FF6D6D6D" Background="FF222422" />
+        <Item Name="CallToActionButtonDisabledBorder" Background="FF3F463F" />
+        <Item Name="CallToActionButtonMouseOver" Foreground="FFFFFFFF" Background="FF66BB67" />
+        <Item Name="CallToActionButtonMouseOverBorder" Background="FF66BB67" />
+        <Item Name="CallToActionButtonPressed" Foreground="FFFFFFFF" Background="FF1B6826" />
+        <Item Name="CallToActionButtonPressedBorder" Background="FF1B6826" />
+        <Item Name="InnerTabActive" Foreground="FFF1F1F1" Background="FF2D302D" />
+        <Item Name="InnerTabMouseOver" Foreground="FFF1F1F1" Background="FF3F463F" />
+        <Item Name="InnerTabPressed" Foreground="FFFFFFFF" Background="FF008800" />
+        <Item Name="TeamExplorerHomeDefaultIconFill" Background="FF008800" />
+        <Item Name="TeamExplorerHomeWITFamilyIconFill" Background="FF008800" />
+        <Item Name="TETileListBackgroundMouseOver" Background="FF3F463F" />
+        <Item Name="TETileIconBackgroundSelected" Background="FF458C4D" />
+        <Item Name="EmbeddedDialog" Background="FF2D302D" />
+    </Category>
+    <Category Name="ThemedDialog" GUID="{5e04b2a9-e443-48db-8791-63a2a71cfbd7}">
+        <Item Name="ListBox" Foreground="FFF1F1F1" Background="FF222422" />
+        <Item Name="ListBoxBorder" Background="FF3F463F" />
+        <Item Name="ListBoxDisabled" Background="FF2D302D" />
+        <Item Name="ListBoxDisabledBorder" Background="FF3F463F" />
+        <Item Name="WindowPanel" Foreground="FFF1F1F1" Background="FF222422" />
+        <Item Name="WindowBorder" Background="FF3F463F" />
+
+
+        <Item Name="SelectedItemActive" Foreground="FFFFFFFF" Background="FF008800" />
+        <Item Name="SelectedItemInactive" Foreground="FFFFFFFF" Background="FF3F463F" />
+        <Item Name="ListItemMouseOver" Foreground="FFF1F1F1" Background="FF4C4D4C" />
+        <Item Name="GridLine" Background="FF3F463F" />
+        <Item Name="WizardFooter" Background="FF2D302D" />
+        <Item Name="SectionDivider" Background="FF3F463F" />
+        <Item Name="WindowButtonHover" Background="FF3F463F" />
+        <Item Name="WindowButtonDown" Background="FF008800" />
+        <Item Name="WindowButtonHoverBorder" Background="FF3F463F" />
+        <Item Name="WindowButtonDownBorder" Background="FF008800" />
+        <Item Name="ActionButtonBackground" Background="FF2D302D" />
+        <Item Name="ActionButtonStroke" Background="FF2D302D" />
+        <Item Name="ActionButtonStrokeHover" Background="FF2D302D" />
+        <Item Name="StartWindowDescription" Foreground="FFB1BEB1" />
+        <Item Name="StartWindowDescriptionActive" Foreground="FFB1BEB1" />
+        <Item Name="StartWindowDescriptionHover" Foreground="FFB1BEB1" />
+        <Item Name="TemplateNewTag" Foreground="FFFFFFFF" Background="FF008800" />
+    </Category>
+    <Category Name="ThemedUtilityDialog" GUID="{e2961a72-48a5-4da7-8168-1fee490f78a7}">
+        <Item Name="ActiveCaption" Foreground="FF999999" Background="FF2D302D" />
+        <Item Name="WindowBorder" Background="FF008800" />
+        <Item Name="WindowPanel" Foreground="FFF1F1F1" Background="FF222422" />
+        <Item Name="WindowButtonDown" Background="FF008800" />
+        <Item Name="WindowButtonDownBorder" Background="FF008800" />
+        <Item Name="WindowButtonHoverGlyph" Background="FF008800" />
+    </Category>
+    <Category Name="TreeView" GUID="{92ecf08e-8b13-4cf4-99e9-ae2692382185}">
+        <Item Name="Background" Foreground="FFF1F1F1" Background="FF222422" />
+        <Item Name="SelectedItemActive" Foreground="FFFFFFFF" Background="FF008800" />
+        <Item Name="SelectedItemInactive" Foreground="FFFFFFFF" Background="FF3F463F" />
+        <Item Name="FocusVisualBorder" Background="FF008800" />
+        <Item Name="GlyphMouseOver" Background="FF008800" />
+        <Item Name="SelectedItemInactiveGlyphMouseOver" Background="FF008800" />
+    </Category>
+    <Category Name="UserInformation" GUID="{b6d9f1fc-e422-4755-a014-3fb666d831dc}">
+        <Item Name="IDCardBorder" Background="FF3F463F" />
+        <Item Name="IDCardSeparator" Foreground="FFF1F1F1" Background="FF3F463F" />
+    </Category>
+    <Category Name="UserNotifications" GUID="{5d42b198-efca-431c-92aa-8b595d0d39c2}">
+        <Item Name="SeverityInformative" Background="FF3F463F" />
+        <Item Name="NotificationBackground" Background="FF222422" />
+        <Item Name="NotificationMouseOverBackground" Background="FF3F463F" />
+        <Item Name="Content" Foreground="FFF1F1F1" Background="FF222422" />
+        <Item Name="NotificationBorder" Background="FF222422" />
+        <Item Name="NotificationMouseOverBorder" Background="FF3F463F" />
+        <Item Name="NotificationGlyph" Foreground="FFF1F1F1" Background="FF222422" />
+        <Item Name="NotificationGlyphMouseOver" Foreground="FFF1F1F1" Background="FF3F463F" />
+        <Item Name="NotificationGlyphMouseDown" Foreground="FFFFFFFF" Background="FF008800" />
+        <Item Name="NotificationGlyphMouseOverBorder" Background="FF2D302D" />
+        <Item Name="NotificationGlyphMouseDownBorder" Background="FF008800" />
+        <Item Name="NotificationSelectedBackground" Background="FF171917" />
+        <Item Name="NotificationSelectedBorder" Background="FF171917" />
+        <Item Name="IgnoredBackground" Background="FF3F463F" />
+        <Item Name="IgnoredBorder" Background="FF3F463F" />
+        <Item Name="ToastPanelBackground" Background="FF222422" />
+        <Item Name="ToastPanelBorder" Background="FF008800" />
+        <Item Name="ToastGlyphButtonHover" Background="FF008800" />
+        <Item Name="ToastGlyphButtonPressed" Background="FF008800" />
+        <Item Name="ToastActionButton" Background="FF3F463F" />
+        <Item Name="ToastActionButtonBorder" Background="FF3F463F" />
+        <Item Name="ToastActionButtonHover" Background="FF3F463F" />
+        <Item Name="ToastActionButtonBorderHover" Background="FF008800" />
+        <Item Name="ToastActionButtonPressed" Background="FF008800" />
+        <Item Name="ToastActionButtonBorderPressed" Background="FF008800" />
+        <Item Name="ToastActionButtonDisabled" Background="FF2D302D" />
+        <Item Name="ToastActionButtonBorderDisabled" Background="FF3F463F" />
+    </Category>
+    <Category Name="VSSearch" GUID="{04ba5a31-6d4d-4225-9194-2e38a9175e31}">
+        <Item Name="TabSelectionActive" Background="FF008800" />
+        <Item Name="WindowPanelTabDivider" Background="FF3F463F" />
+        <Item Name="WindowPanelBorder" Background="FF3F463F" />
+        <Item Name="WindowPanel" Background="FF222422" />
+        <Item Name="ListItemBackgroundHover" Background="FF3F463F" />
+    </Category>
+    <Category Name="WelcomeExperience" GUID="{df76799d-28de-4975-81af-3357270f57eb}">
+        <Item Name="WelcomeExperienceButtonMousedownBackground" Background="FF008800" />
+        <Item Name="WelcomeExperienceButtonMousedownBorder" Foreground="FF008800" />
+        <Item Name="WelcomeExperienceButtonMouseoverBorder" Foreground="FF008800" />
+        <Item Name="WelcomeExperienceDistinctButtonMousedownBackground" Background="FF008800" />
+        <Item Name="WelcomeExperienceDistinctButtonMousedownBorder" Foreground="FF008800" />
+        <Item Name="WelcomeExperienceDistinctButtonMouseoverBorder" Foreground="FF008800" />
+        <Item Name="WelcomeExperienceDistinctButtonBorder" Foreground="FF008800" />
+    </Category>
+    <Category Name="Dialogs and Tool Windows" GUID="{1f987c00-e7c4-4869-8a17-23fd602268b0}">
+        <Item Name="ToolTip" Foreground="00000000" Background="FF3F463F" />
+        <Item Name="ToolTipBorder" Foreground="00000000" Background="FF4C4D4C" />
+    </Category>
+</ThemeDiff>
