@@ -7791,7 +7791,7 @@
       </Color>
       <Color Name="XAML Attribute">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF99D59A" />
+        <Foreground Type="CT_RAW" Source="FF92CAF4" />
       </Color>
       <Color Name="XAML CData Section">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
@@ -7894,7 +7894,7 @@
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="Task List Shortcut">
-        <Background Type="CT_RAW" Source="FF99D59A" />
+        <Background Type="CT_RAW" Source="FF92CAF4" />
         <Foreground Type="CT_COLORINDEX" Source="00000002" />
       </Color>
       <Color Name="Bookmark">
@@ -7903,7 +7903,7 @@
       </Color>
       <Color Name="compiler error">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF6FB173" />
+        <Foreground Type="CT_RAW" Source="FF9BD1E1" />
       </Color>
       <Color Name="syntax error">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -7946,7 +7946,7 @@
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="Brace Matching (Rectangle)">
-        <Background Type="CT_RAW" Source="FF1B6826" />
+        <Background Type="CT_RAW" Source="FF0E4583" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="Definition Window Background">
@@ -7959,7 +7959,7 @@
       </Color>
       <Color Name="Warning Lines Path">
         <Background Type="CT_RAW" Source="FFB5CEA8" />
-        <Foreground Type="CT_RAW" Source="FF152815" />
+        <Foreground Type="CT_RAW" Source="FF21444E" />
       </Color>
       <Color Name="Refactoring Background">
         <Background Type="CT_RAW" Source="FF1E1E1E" />
@@ -8062,7 +8062,7 @@
         <Foreground Type="CT_RAW" Source="FFFFFFFF" />
       </Color>
       <Color Name="Coverage Touched Area">
-        <Background Type="CT_RAW" Source="FF6FB173" />
+        <Background Type="CT_RAW" Source="FF9BD1E1" />
         <Foreground Type="CT_RAW" Source="FF000000" />
       </Color>
       <Color Name="Coverage Not Touched Area">
@@ -8074,7 +8074,7 @@
         <Foreground Type="CT_RAW" Source="FF888888" />
       </Color>
       <Color Name="Coverage Partially Touched Area">
-        <Background Type="CT_RAW" Source="FFB1BEB1" />
+        <Background Type="CT_RAW" Source="FFB4B6CB" />
         <Foreground Type="CT_RAW" Source="FF000000" />
       </Color>
       <Color Name="Breakpoint (Enabled)">
@@ -8118,7 +8118,7 @@
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="Bookmark (Disabled)">
-        <Background Type="CT_INVALID" Source="FFBEE8C0" />
+        <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="Brace Matching (Highlight)">
@@ -8207,7 +8207,7 @@
       </Color>
       <Color Name="SQL DML Marker">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="FF008800" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="Executing Threads IPs">
         <Background Type="CT_INVALID" Source="00000000" />
