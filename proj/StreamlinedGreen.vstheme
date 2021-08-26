@@ -3888,10 +3888,10 @@
         <Background Type="CT_RAW" Source="FFF1F1F1" />
       </Color>
       <Color Name="StartPageTextControlLinkSelected">
-        <Background Type="CT_RAW" Source="FF008800" />
+        <Background Type="CT_RAW" Source="FF0097FB" />
       </Color>
       <Color Name="StartPageTextControlLinkSelectedHover">
-        <Background Type="CT_RAW" Source="FF99D59A" />
+        <Background Type="CT_RAW" Source="FF88CCFE" />
       </Color>
       <Color Name="StartPageTextDate">
         <Background Type="CT_RAW" Source="FFF1F1F1" />
@@ -6453,7 +6453,7 @@
       </Color>
       <Color Name="urlformat">
         <Background Type="CT_RAW" Source="FF222422" />
-        <Foreground Type="CT_RAW" Source="FF6FB173" />
+        <Foreground Type="CT_RAW" Source="FF569CD6" />
       </Color>
       <Color Name="OutputHeading">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -6465,7 +6465,7 @@
       </Color>
       <Color Name="OutputVerbose">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFB1BEB1" />
+        <Foreground Type="CT_RAW" Source="FFB7B9C5" />
       </Color>
       <Color Name="Selected Text in High Contrast">
         <Background Type="CT_INVALID" Source="FF008800" />
@@ -7094,13 +7094,13 @@
         <Foreground Type="CT_RAW" Source="FFFFBA00" />
       </Color>
       <Color Name="DefaultBannerLink">
-        <Foreground Type="CT_RAW" Source="FF008800" />
+        <Foreground Type="CT_RAW" Source="FF0097FB" />
       </Color>
       <Color Name="DefaultBannerLinkHover">
-        <Foreground Type="CT_RAW" Source="FF99D59A" />
+        <Foreground Type="CT_RAW" Source="FF88CCFE" />
       </Color>
       <Color Name="DefaultBannerLinkPressed">
-        <Foreground Type="CT_RAW" Source="FF008800" />
+        <Foreground Type="CT_RAW" Source="FF0097FB" />
       </Color>
       <Color Name="VisualStudioLogoText">
         <Foreground Type="CT_RAW" Source="FFFFFFFF" />

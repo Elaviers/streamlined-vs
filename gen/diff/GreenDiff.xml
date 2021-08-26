@@ -462,8 +462,6 @@
         <Item Name="StartPageTabBackgroundEnd" Background="FF222422" />
         <Item Name="StartPageTabMouseOverBackgroundBegin" Background="FF2D302D" />
         <Item Name="StartPageTabMouseOverBackgroundEnd" Background="FF2D302D" />
-        <Item Name="StartPageTextControlLinkSelected" Background="FF008800" />
-        <Item Name="StartPageTextControlLinkSelectedHover" Background="FF99D59A" />
         <Item Name="TitleBarActiveGradientMiddle1" Background="FF008800" />
         <Item Name="TitleBarActiveGradientMiddle2" Background="FF008800" />
         <Item Name="ToolboxSelectedHeadingBegin" Background="FF2D302D" />
@@ -861,9 +859,9 @@
     <Category Name="Output Window" GUID="{9973efdf-317d-431c-8bc1-5e88cbfd4f7f}">
         <Item Name="Plain Text" Background="FF222422" />
         <Item Name="Inactive Selected Text" Background="FF3F463F" />
-        <Item Name="urlformat" Foreground="FF6FB173" Background="FF222422" />
+        <Item Name="urlformat" Background="FF222422" />
         <Item Name="OutputHeading" Foreground="FF008800" Background="00000000" />
-        <Item Name="OutputVerbose" Foreground="FFB1BEB1" Background="00000000" />
+        <Item Name="OutputVerbose" Background="00000000" />
         <Item Name="Selected Text in High Contrast" Background="FF008800" />
     </Category>
     <Category Name="Package Manager Console" GUID="{f9d6bce6-c669-41db-8ee7-dd953828685b}">
@@ -999,9 +997,6 @@
         <Item Name="StartPageLeftPanelBackground" Background="FF2D302D" />
         <Item Name="StartPageNewText" Foreground="FF222422" Background="FFFF8C00" />
         <Item Name="StartPageNotificationDotBorder" Foreground="FF4C4D4C" />
-        <Item Name="DefaultBannerLink" Foreground="FF008800" />
-        <Item Name="DefaultBannerLinkHover" Foreground="FF99D59A" />
-        <Item Name="DefaultBannerLinkPressed" Foreground="FF008800" />
         <Item Name="StartPageTitleText" Foreground="FF99D59A" />
         <Item Name="StartPageExpander" Foreground="FFFFFFFF" Background="FF4C4D4C" />
         <Item Name="StartPageExpanderPressed" Foreground="FFFFFFFF" Background="FF4C4D4C" />
