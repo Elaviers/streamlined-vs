@@ -80,7 +80,9 @@ def genDiffFile(diffFrom: str, diffTo: str, diffOut: str, themes: List[tuple]):
 
 genDiffFile('base/Dark.xml', 'Streamlined.vstheme', 'diff/ThemeDiff.xml', [
 	('Streamlined.vstheme', 'base/Dark.xml'),
-	('StreamlinedGreen.vstheme', 'base/Dark.xml', 'diff/GreenDiff.xml', 'diff/GreenDiff_CommonElements.xml')
+	('StreamlinedGreen.vstheme', 'base/Dark.xml', 'diff/GreenDiff.xml', 'diff/GreenDiff_CommonElements.xml'),
+	('Streamlined22.vstheme', 'base/Dark22.xml'),
+	('StreamlinedGreen22.vstheme', 'base/Dark22.xml', 'diff/GreenDiff22.xml'),
 ])
 
 #
@@ -90,3 +92,4 @@ genDiffFile('base/Dark.xml', 'Streamlined.vstheme', 'diff/ThemeDiff.xml', [
 #
 
 genDiffFile('base/Dark.xml', 'base/DarkGreen_CommonElements.xml', 'diff/GreenDiff_CommonElements.xml', [])
+genDiffFile('base/Dark22.xml', 'base/DarkGreen22.xml', 'diff/GreenDiff22.xml', [])

@@ -5,6 +5,19 @@ from typing import List
 
 filedir = os.path.dirname(__file__)
 
+def applyColourDiff(element: etree.Element, diff: etree.Element, colourName: str):
+    diffColour = diff.get( colourName)
+    if not diffColour:
+        return
+
+    colourElem = element.find( colourName )
+    if int(diffColour, 16) == 0:
+        colourElem.set('Type', 'CT_AUTOMATIC')
+    else:
+        colourElem.set('Source', diffColour)
+        colourElem.set('Type', 'CT_RAW')
+
+
 def applyDiffToCategories(diff: etree.ElementTree, dest: etree.ElementTree):
     categories = dest.findall('.//Category')
     for category in categories:
@@ -16,13 +29,10 @@ def applyDiffToCategories(diff: etree.ElementTree, dest: etree.ElementTree):
                 name = colour.get('Name')
                 dcolour = dcategory.find(f'Item[@Name=\'{name}\']')
                 if dcolour != None:
-                    dforeground = dcolour.get('Foreground')
-                    dbackground = dcolour.get('Background')
-
-                    if dforeground != None: colour.find('Foreground').set('Source', dforeground)
-                    if dbackground != None: colour.find('Background').set('Source', dbackground)
-
+                    applyColourDiff(colour, dcolour, 'Foreground')
+                    applyColourDiff(colour, dcolour, 'Background')
                     print(name)
+
 
 def GenThemeFile(diffFile: str):
     dfile = os.path.join(filedir, os.path.join(filedir, diffFile))
