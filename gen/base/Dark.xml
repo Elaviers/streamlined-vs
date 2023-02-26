@@ -1,5 +1,5 @@
 ﻿<Themes>
-  <Theme Name="DefaultDark" GUID="{56dae3c0-a4bf-4dc0-99dc-674e0454f496}" BaseGUID="{1ded0138-47ce-435e-84ef-9ec1f439b749}">
+  <Theme Name="DefaultDark" GUID="{1bf0c50e-d7c2-4559-88d9-e5f2f625aea9}" BaseGUID="{1ded0138-47ce-435e-84ef-9ec1f439b749}">
     <Category Name="ACDCOverview" GUID="{c8887ac6-3c60-4209-9d69-8f4c12a60044}">
       <Color Name="Body">
         <Background Type="CT_RAW" Source="FF252526" />
@@ -42,83 +42,6 @@
       </Color>
       <Color Name="ContentSectionHeaderBorder">
         <Foreground Type="CT_RAW" Source="FF3F3F46" />
-      </Color>
-    </Category>
-    <Category Name="ApplicationInsights" GUID="{fb17cf37-09ea-44a4-88a6-cd806fc6a24a}">
-      <Color Name="ButtonBorder">
-        <Background Type="CT_RAW" Source="FF009BD8" />
-      </Color>
-      <Color Name="Button">
-        <Background Type="CT_RAW" Source="FF007ACC" />
-        <Foreground Type="CT_RAW" Source="FFFFFFFF" />
-      </Color>
-      <Color Name="ButtonHover">
-        <Background Type="CT_RAW" Source="FF0573EE" />
-        <Foreground Type="CT_RAW" Source="FFFFFFFF" />
-      </Color>
-      <Color Name="LandingPageBackground">
-        <Background Type="CT_RAW" Source="FF404040" />
-        <Foreground Type="CT_RAW" Source="FFFFFFFF" />
-      </Color>
-      <Color Name="LandingPageLetters">
-        <Background Type="CT_RAW" Source="FFFFFFFF" />
-      </Color>
-      <Color Name="ComboBoxText">
-        <Background Type="CT_RAW" Source="FFFFFFFF" />
-      </Color>
-      <Color Name="AIGrayText">
-        <Background Type="CT_RAW" Source="FFAAAAAA" />
-      </Color>
-      <Color Name="Success">
-        <Background Type="CT_RAW" Source="FF008000" />
-      </Color>
-      <Color Name="Error">
-        <Background Type="CT_RAW" Source="FFFF4040" />
-      </Color>
-      <Color Name="TrendsAssistanceItemHeader">
-        <Foreground Type="CT_RAW" Source="FFFFA500" />
-      </Color>
-      <Color Name="TrendsShapesRegular">
-        <Background Type="CT_RAW" Source="FF409CD9" />
-      </Color>
-      <Color Name="TrendsShapesHighlighted">
-        <Background Type="CT_RAW" Source="FFFFD700" />
-      </Color>
-      <Color Name="StatusOK">
-        <Background Type="CT_RAW" Source="FF4EB543" />
-      </Color>
-      <Color Name="StatusPending">
-        <Background Type="CT_RAW" Source="FFE00000" />
-      </Color>
-      <Color Name="StatusWarning">
-        <Background Type="CT_RAW" Source="FFF1CA5D" />
-      </Color>
-      <Color Name="AIPurple">
-        <Background Type="CT_RAW" Source="FFFFFFFF" />
-      </Color>
-      <Color Name="LandingPageConstrastBackground">
-        <Background Type="CT_RAW" Source="FF292929" />
-      </Color>
-      <Color Name="BorderLightContrast">
-        <Background Type="CT_RAW" Source="FF1E1E1E" />
-      </Color>
-      <Color Name="Squiggly">
-        <Background Type="CT_SYSCOLOR" Source="0000001B" />
-      </Color>
-      <Color Name="LiveMetricsRequestStroke">
-        <Background Type="CT_RAW" Source="FF56B45D" />
-      </Color>
-      <Color Name="LiveMetricsRequestFill">
-        <Background Type="CT_RAW" Source="FF294033" />
-      </Color>
-      <Color Name="LiveMetricsFailedRequestStroke">
-        <Background Type="CT_RAW" Source="FFEA485C" />
-      </Color>
-      <Color Name="LiveMetricsFailedRequestFill">
-        <Background Type="CT_RAW" Source="FF4C2728" />
-      </Color>
-      <Color Name="SquigglyOrange">
-        <Background Type="CT_RAW" Source="00FF9427" />
       </Color>
     </Category>
     <Category Name="Autos" GUID="{a7ee6bee-d0aa-4b2f-ad9d-748276a725f6}">
@@ -933,7 +856,7 @@
         <Foreground Type="CT_RAW" Source="FF90EE90" />
       </Color>
     </Category>
-    <Category Name="CodeLens" GUID="{fc88969a-cbed-4940-8f48-142a503e2381}">
+    <Category Name="CodeSense" GUID="{fc88969a-cbed-4940-8f48-142a503e2381}">
       <Color Name="IndicatorText">
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_RAW" Source="FF999999" />
@@ -1891,114 +1814,6 @@
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_RAW" Source="FFE8C9BB" />
       </Color>
-      <Color Name="Python operator">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFB4B4B4" />
-      </Color>
-      <Color Name="Python grouping">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFB4B4B4" />
-      </Color>
-      <Color Name="Python comma">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFB4B4B4" />
-      </Color>
-      <Color Name="Python dot">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFB4B4B4" />
-      </Color>
-      <Color Name="Python class">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF4EC9B0" />
-      </Color>
-      <Color Name="Python module">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFE090D0" />
-      </Color>
-      <Color Name="Python parameter">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFB4B4B4" />
-      </Color>
-      <Color Name="Python function">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFC8C8C8" />
-      </Color>
-      <Color Name="Python builtin">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF70B0E0" />
-      </Color>
-      <Color Name="Python documentation">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF4AB667" />
-      </Color>
-      <Color Name="Python regex">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF34539A" />
-      </Color>
-      <Color Name="Python Interactive - Black">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFDCDCDC" />
-      </Color>
-      <Color Name="Python Interactive - Blue">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF8CADFF" />
-      </Color>
-      <Color Name="Python Interactive - Cyan">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF00FFFF" />
-      </Color>
-      <Color Name="Python Interactive - DarkBlue">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF5080FF" />
-      </Color>
-      <Color Name="Python Interactive - DarkCyan">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF00A0A0" />
-      </Color>
-      <Color Name="Python Interactive - DarkGray">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF909090" />
-      </Color>
-      <Color Name="Python Interactive - DarkGreen">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF00A000" />
-      </Color>
-      <Color Name="Python Interactive - DarkMagenta">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFE040E0" />
-      </Color>
-      <Color Name="Python Interactive - DarkRed">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFC08080" />
-      </Color>
-      <Color Name="Python Interactive - DarkYellow">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF909000" />
-      </Color>
-      <Color Name="Python Interactive - Gray">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFD0D0D0" />
-      </Color>
-      <Color Name="Python Interactive - Green">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF00FF00" />
-      </Color>
-      <Color Name="Python Interactive - Magenta">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFFF60FF" />
-      </Color>
-      <Color Name="Python Interactive - Red">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFFF4040" />
-      </Color>
-      <Color Name="Python Interactive - White">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFFFFFFF" />
-      </Color>
-      <Color Name="Python Interactive - Yellow">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFFFFF00" />
-      </Color>
       <Color Name="preprocessor text">
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_RAW" Source="FFDCDCDC" />
@@ -2242,6 +2057,10 @@
       <Color Name="SymbolReferenceClassificationFormat">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
         <Foreground Type="CT_RAW" Source="FF7CA5A0" />
+      </Color>
+      <Color Name="BidirectionalTextControlCharacter">
+        <Background Type="CT_RAW" Source="FF2E2E2E" />
+        <Foreground Type="CT_RAW" Source="FFC24B4B" />
       </Color>
       <Color Name="CurrentLineActiveFormat">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
@@ -2679,26 +2498,6 @@
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
-      <Color Name="GlslFunctionClassificationFormatDefinition">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="GlslKeywordClassificationFormatDefinition">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="GlslVariableClassificationFormatDefinition">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="GlslUserKeyword1ClassificationFormatDefinition">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="GlslUserKeyword2ClassificationFormatDefinition">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
       <Color Name="Test Summary - Default">
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_INVALID" Source="00000000" />
@@ -2767,22 +2566,6 @@
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
-      <Color Name="data.tools.diff.remove.line">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="data.tools.diff.add.line">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="data.tools.diff.remove.word">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="data.tools.diff.add.word">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
       <Color Name="MarkerFormatDefinition/VASourceLinks">
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_INVALID" Source="00000000" />
@@ -2840,6 +2623,10 @@
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="record class name">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="record struct name">
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
@@ -3112,7 +2899,7 @@
         <Background Type="CT_RAW" Source="FF656565" />
       </Color>
     </Category>
-    <Category Name="ToolTips" GUID="{a9a5637f-b2a8-422e-8fb5-dfb4625f0111}">
+    <Category Name="Editor Tooltip" GUID="{a9a5637f-b2a8-422e-8fb5-dfb4625f0111}">
       <Color Name="Plain Text">
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_RAW" Source="FFF1F1F1" />
@@ -6072,124 +5859,6 @@
         <Background Type="CT_RAW" Source="FFB5B5B5" />
       </Color>
     </Category>
-    <Category Name="JavaScriptDiagnosticsTools" GUID="{6aacdb12-98d1-4448-affa-ff460b4339e7}">
-      <Color Name="BreadCrumb">
-        <Background Type="CT_RAW" Source="FF00FFFF" />
-      </Color>
-    </Category>
-    <Category Name="JavascriptRequiredForMonacoEditor" GUID="{ca939bd0-e6fd-47f6-8a98-effc40dfab02}">
-      <Color Name="ThemeColor">
-        <Foreground Type="CT_RAW" Source="FF000000" />
-      </Color>
-      <Color Name="PluginFontEditorColor">
-        <Foreground Type="CT_RAW" Source="FFF5F5F5" />
-      </Color>
-      <Color Name="MonacoGotolineBackgroundColor">
-        <Background Type="CT_RAW" Source="FFF6F6F6" />
-      </Color>
-      <Color Name="MonacoGotolineFocusedBackgroundColor">
-        <Background Type="CT_RAW" Source="FFDCEBFC" />
-      </Color>
-      <Color Name="MonacoGotolineHoverBackgroundColor">
-        <Background Type="CT_RAW" Source="FFF0F0F0" />
-      </Color>
-      <Color Name="MonacoGotolineSelectedBackgroundColor">
-        <Background Type="CT_RAW" Source="FF3399FF" />
-      </Color>
-      <Color Name="PluginEditorFocusedSelectedTextBackgroundColor">
-        <Background Type="CT_RAW" Source="00000000" />
-      </Color>
-      <Color Name="PluginEditorSelectedTextBackgroundColor">
-        <Background Type="CT_RAW" Source="FFE5EBF1" />
-      </Color>
-      <Color Name="PluginFontConsoleErrorColor">
-        <Foreground Type="CT_RAW" Source="FFFF0000" />
-      </Color>
-      <Color Name="PluginFontConsoleInfoColor">
-        <Foreground Type="CT_RAW" Source="FF006400" />
-      </Color>
-      <Color Name="PluginFontConsoleInputColor">
-        <Foreground Type="CT_RAW" Source="FF0000FF" />
-      </Color>
-      <Color Name="PluginFontConsoleWarningColor">
-        <Foreground Type="CT_RAW" Source="FF606060" />
-      </Color>
-      <Color Name="PluginFontEditorBreakpointBackgroundColor">
-        <Foreground Type="CT_RAW" Source="FF963A46" />
-      </Color>
-      <Color Name="PluginFontEditorCommentColor">
-        <Foreground Type="CT_RAW" Source="FF006400" />
-      </Color>
-      <Color Name="PluginFontEditorCssNameColor">
-        <Foreground Type="CT_RAW" Source="FFFF0000" />
-      </Color>
-      <Color Name="PluginFontEditorCssSelectorColor">
-        <Foreground Type="CT_RAW" Source="FF880000" />
-      </Color>
-      <Color Name="PluginFontEditorCssValueColor">
-        <Foreground Type="CT_RAW" Source="FF0000FF" />
-      </Color>
-      <Color Name="PluginFontEditorErroradornmentBackgroundColor">
-        <Background Type="CT_RAW" Source="FFBA141A" />
-      </Color>
-      <Color Name="PluginFontEditorErroradornmentColor">
-        <Foreground Type="CT_RAW" Source="FFFFFFFF" />
-      </Color>
-      <Color Name="PluginFontEditorHtmlAttributeNameColor">
-        <Foreground Type="CT_RAW" Source="FFFF0000" />
-      </Color>
-      <Color Name="PluginFontEditorHtmlAttributeValueColor">
-        <Foreground Type="CT_RAW" Source="FF0000FF" />
-      </Color>
-      <Color Name="PluginFontEditorHtmlElementColor">
-        <Foreground Type="CT_RAW" Source="FFFF6666" />
-      </Color>
-      <Color Name="PluginFontEditorHtmlTagColor">
-        <Foreground Type="CT_RAW" Source="FF0097FB" />
-      </Color>
-      <Color Name="PluginFontEditorIdentifierColor">
-        <Foreground Type="CT_RAW" Source="FF001188" />
-      </Color>
-      <Color Name="PluginFontEditorInstructionPointerBackgroundColor">
-        <Background Type="CT_RAW" Source="FFFFEE62" />
-      </Color>
-      <Color Name="PluginFontEditorKeywordColor">
-        <Foreground Type="CT_RAW" Source="FF0000FF" />
-      </Color>
-      <Color Name="PluginFontEditorLiteralColor">
-        <Foreground Type="CT_RAW" Source="FFE00000" />
-      </Color>
-      <Color Name="PluginFontEditorMarginBackgroundColor">
-        <Background Type="CT_RAW" Source="FFE6E7E8" />
-      </Color>
-      <Color Name="PluginFontEditorMarginColor">
-        <Foreground Type="CT_RAW" Source="FF2B91AF" />
-      </Color>
-      <Color Name="PluginFontEditorNumberColor">
-        <Foreground Type="CT_RAW" Source="FFA31515" />
-      </Color>
-      <Color Name="PluginFontEditorSearchResultBackgroundColor">
-        <Background Type="CT_RAW" Source="FFF6B94D" />
-      </Color>
-      <Color Name="PluginFontEditorStringColor">
-        <Foreground Type="CT_RAW" Source="FFA31515" />
-      </Color>
-      <Color Name="PluginHighlightBorderColor">
-        <Foreground Type="CT_RAW" Source="00000000" />
-      </Color>
-      <Color Name="PluginTabHeaderHoverBackgroundColor">
-        <Background Type="CT_RAW" Source="FFEEEEEE" />
-      </Color>
-      <Color Name="PluginWordHighlightColor">
-        <Foreground Type="CT_RAW" Source="FF1E1E1E" />
-      </Color>
-      <Color Name="PluginWordHighlightStrongColor">
-        <Foreground Type="CT_RAW" Source="B3F9CE82" />
-      </Color>
-      <Color Name="VsDropShadowBackgroundColor">
-        <Background Type="CT_RAW" Source="FF000000" />
-      </Color>
-    </Category>
     <Category Name="ListViewGrid" GUID="{63dec435-18e1-4e62-a9a9-0495fcb524a3}">
       <Color Name="Border">
         <Background Type="CT_RAW" Source="FF828790" />
@@ -6902,29 +6571,29 @@
         <Foreground Type="CT_RAW" Source="FFF1F1F1" />
       </Color>
     </Category>
-    <Category Name="SqlResultsGrid" GUID="{6202ff3e-488e-4ead-92cb-be089659f8d7}">
+    <Category Name="SQL Results - Grid" GUID="{6202ff3e-488e-4ead-92cb-be089659f8d7}">
       <Color Name="Header Row">
         <Background Type="CT_RAW" Source="FF252526" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FFF1F1F1" />
       </Color>
       <Color Name="Selected Cell">
         <Background Type="CT_RAW" Source="FF3399FF" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FFFFFFFF" />
       </Color>
       <Color Name="Inactive Selected Cell">
         <Background Type="CT_RAW" Source="FF3F3F46" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FFF1F1F1" />
       </Color>
       <Color Name="Null Value Cell">
         <Background Type="CT_RAW" Source="FF2D2D30" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FF656565" />
       </Color>
       <Color Name="Grid Cell">
         <Background Type="CT_RAW" Source="FF2D2D30" />
         <Foreground Type="CT_RAW" Source="FFF1F1F1" />
       </Color>
     </Category>
-    <Category Name="SqlResultsText" GUID="{587d0421-e473-4032-b214-9359f3b7bc80}">
+    <Category Name="SQL Results - Text" GUID="{587d0421-e473-4032-b214-9359f3b7bc80}">
       <Color Name="Plain Text">
         <Background Type="CT_RAW" Source="FF2D2D30" />
         <Foreground Type="CT_RAW" Source="FFF1F1F1" />
@@ -7737,38 +7406,6 @@
         <Background Type="CT_AUTOMATIC" Source="00000000" />
         <Foreground Type="CT_RAW" Source="FF8F8F8F" />
       </Color>
-      <Color Name="Text">
-        <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFDADADA" />
-      </Color>
-      <Color Name="SQL Stored Procedure">
-        <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFB3725B" />
-      </Color>
-      <Color Name="SQL System Table">
-        <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFB9E873" />
-      </Color>
-      <Color Name="SQL System Function">
-        <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFC975D5" />
-      </Color>
-      <Color Name="SQL Operator">
-        <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF818181" />
-      </Color>
-      <Color Name="SQL String">
-        <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFCB4141" />
-      </Color>
-      <Color Name="SQLCMD Command">
-        <Background Type="CT_RAW" Source="FF484848" />
-        <Foreground Type="CT_RAW" Source="FFC8C8C8" />
-      </Color>
-      <Color Name="Error">
-        <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFD85050" />
-      </Color>
       <Color Name="XAML Text">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
         <Foreground Type="CT_RAW" Source="FFABABAB" />
@@ -8092,10 +7729,6 @@
       <Color Name="Current Statement (historical mode)">
         <Background Type="CT_RAW" Source="FFB5CEA8" />
         <Foreground Type="CT_RAW" Source="FF000000" />
-      </Color>
-      <Color Name="Error Message">
-        <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFD85050" />
       </Color>
       <Color Name="Tracepoint - Advanced (Enabled)">
         <Background Type="CT_AUTOMATIC" Source="00000000" />

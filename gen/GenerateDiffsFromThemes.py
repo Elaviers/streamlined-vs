@@ -40,19 +40,15 @@ def genDiffFile(diffFrom: str, diffTo: str, diffOut: str, themes: List[tuple]):
 				skip1 = skip2 = True
 				fg = colour.find('Foreground')
 				if fg != None:
-					fg = fg.get('Source')
-
 					if basecolour != None:
 						basefg = basecolour.find('Foreground')
-						skip1 = basefg != None and basefg.get('Source') == fg
+						skip1 = basefg != None and basefg.get('Source') == fg.get('Source')
 
 				bg = colour.find('Background')
 				if bg != None:
-					bg = bg.get('Source')
-
 					if basecolour != None:
 						basebg = basecolour.find('Background')
-						skip2 = basebg != None and basebg.get('Source') == bg
+						skip2 = basebg != None and basebg.get('Source') == bg.get('Source')
 				
 				if basecolour == None:
 					print(f'Error: Colour \"{name}\" is not in base!')
@@ -64,8 +60,12 @@ def genDiffFile(diffFrom: str, diffTo: str, diffOut: str, themes: List[tuple]):
 					outCategory = etree.SubElement(outDiff, 'Category', {'Name': category.get('Name'), 'GUID': guid})
 
 				item = etree.SubElement(outCategory, 'Item', {'Name': name })
-				if fg != None: item.set('Foreground', fg)
-				if bg != None: item.set('Background', bg)
+				if fg != None: 
+					item.set('ForegroundSource', fg.get('Source'))
+					item.set('ForegroundType', fg.get('Type'))
+				if bg != None:
+					item.set('BackgroundSource', bg.get('Source'))
+					item.set('BackgroundType', bg.get('Type'))
 
 				print(name)
 
@@ -78,18 +78,14 @@ def genDiffFile(diffFrom: str, diffTo: str, diffOut: str, themes: List[tuple]):
 ############
 ############
 
-genDiffFile('base/Dark.xml', 'Streamlined.vstheme', 'diff/ThemeDiff.xml', [
-	('Streamlined.vstheme', 'base/Dark.xml'),
-	('StreamlinedGreen.vstheme', 'base/Dark.xml', 'diff/GreenDiff.xml', 'diff/GreenDiff_CommonElements.xml'),
-	('Streamlined22.vstheme', 'base/Dark22.xml'),
-	('StreamlinedGreen22.vstheme', 'base/Dark22.xml', 'diff/GreenDiff22.xml'),
-])
+# genDiffFile('base/Dark.xml', 'Streamlined.vstheme', 'diff/ThemeDiff.xml', [
+# 	('Streamlined.vstheme', 'base/Dark.xml'),
+# 	('StreamlinedGreen.vstheme', 'base/Dark.xml', 'diff/GreenDiff.xml', 'diff/GreenDiff_CommonElements.xml'),
+# 	('Streamlined22.vstheme', 'base/Dark22.xml'),
+# 	('StreamlinedGreen22.vstheme', 'base/Dark22.xml', 'diff/GreenDiff22.xml'),
+# ])
 
-#
-# Regens GreenDiff.xml
-#  vvvv
-#genDiffFile('base/Dark.xml', 'base/DarkGreen.xml', 'diff/GreenDiff.xml', [])
-#
+# genDiffFile('base/Dark.xml', 'base/DarkGreen.xml', 'diff/GreenDiff.xml', [])
 
 genDiffFile('base/Dark.xml', 'base/DarkGreen_CommonElements.xml', 'diff/GreenDiff_CommonElements.xml', [])
 genDiffFile('base/Dark22.xml', 'base/DarkGreen22.xml', 'diff/GreenDiff22.xml', [])

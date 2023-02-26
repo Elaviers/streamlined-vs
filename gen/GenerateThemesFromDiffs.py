@@ -6,16 +6,13 @@ from typing import List
 filedir = os.path.dirname(__file__)
 
 def applyColourDiff(element: etree.Element, diff: etree.Element, colourName: str):
-    diffColour = diff.get( colourName)
+    diffColour = diff.get( colourName + 'Source' )
     if not diffColour:
         return
 
     colourElem = element.find( colourName )
-    if int(diffColour, 16) == 0:
-        colourElem.set('Type', 'CT_AUTOMATIC')
-    else:
-        colourElem.set('Source', diffColour)
-        colourElem.set('Type', 'CT_RAW')
+    colourElem.set('Source', diffColour )
+    colourElem.set('Type', diff.get( colourName + 'Type' ) )
 
 
 def applyDiffToCategories(diff: etree.ElementTree, dest: etree.ElementTree):
