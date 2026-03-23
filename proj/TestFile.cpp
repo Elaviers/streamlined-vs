@@ -1,5 +1,8 @@
 ﻿#include <iostream>
 
+#define Whatever
+#define Whatever2( a, b, c )
+
 template <typename T>
 class PooClass
 {
@@ -13,6 +16,8 @@ class PooClass
 
 int main(char* argsv[], int argsc)
 {
+	Whatever2( 3, "ab", argsv );
+
 	int ints[30] = { 1, 2, 3 };
 
 	for (int i = 0; i < 30; ++i)
