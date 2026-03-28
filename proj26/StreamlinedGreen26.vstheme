@@ -32,6 +32,103 @@
 				<Background Type="CT_RAW" Source="FF60C060" />
 			</Color>
 		</Category>
+		<Category Name="CommonDocument" GUID="{72eb4027-f4ae-4b6c-9cc2-dfd5b49d9415}">
+			<Color Name="InnerTabActiveIndicator">
+				<Background Type="CT_RAW" Source="FF60C060" />
+			</Color>
+			<Color Name="InnerTabSelectedIndicator">
+				<Background Type="CT_RAW" Source="FF60C060" />
+			</Color>
+			<Color Name="ListItemBorderFocused">
+				<Background Type="CT_RAW" Source="FF60C060" />
+			</Color>
+			<Color Name="ListItemBorderHover">
+				<Background Type="CT_RAW" Source="FF60C060" />
+			</Color>
+			<Color Name="ListItemBorderPressed">
+				<Background Type="CT_RAW" Source="FF60C060" />
+			</Color>
+			<Color Name="ListItemBorderSelected">
+				<Background Type="CT_RAW" Source="FF60C060" />
+			</Color>
+			<Color Name="TileViewBorderPressed">
+				<Background Type="CT_RAW" Source="FF60C060" />
+			</Color>
+			<Color Name="TileViewBorderSelected">
+				<Background Type="CT_RAW" Source="FF60C060" />
+			</Color>
+			<Color Name="TargetBorderHover">
+				<Background Type="CT_RAW" Source="FF60C060" />
+			</Color>
+			<Color Name="TargetBorderPressed">
+				<Background Type="CT_RAW" Source="FF60C060" />
+			</Color>
+			<Color Name="ToolBorderHover">
+				<Background Type="CT_RAW" Source="FF60C060" />
+			</Color>
+		</Category>
+		<Category Name="Environment" GUID="{624ed9c3-bdfd-41fa-96c3-7c824ea32e3d}">
+			<Color Name="AutoHideTabMouseOverBorder">
+				<Background Type="CT_RAW" Source="FF60C060" />
+			</Color>
+			<Color Name="CommandBarMouseDownBorder">
+				<Background Type="CT_RAW" Source="FF60C060" />
+			</Color>
+			<Color Name="CommandBarSelectedBorder">
+				<Background Type="CT_RAW" Source="FF60C060" />
+			</Color>
+			<Color Name="CommandBarSelectedIconBorder">
+				<Background Type="CT_RAW" Source="FF60C060" />
+			</Color>
+			<Color Name="FileTabDocumentBorderBackground">
+				<Background Type="CT_RAW" Source="FF60C060" />
+			</Color>
+			<Color Name="FileTabDocumentBorderHighlight">
+				<Background Type="CT_RAW" Source="FF60C060" />
+			</Color>
+			<Color Name="FileTabProvisionalSelectedActiveBorder">
+				<Background Type="CT_RAW" Source="FF60C060" />
+			</Color>
+			<Color Name="FileTabSelectedBorder">
+				<Background Type="CT_RAW" Source="FF60C060" />
+			</Color>
+			<Color Name="HelpSearchPanelRules">
+				<Background Type="CT_RAW" Source="FF60C060" />
+			</Color>
+			<Color Name="Highlight">
+				<Background Type="CT_RAW" Source="FF204020" /> <!--Used in list item backgrounds, so I made it darker-->
+			</Color>
+			<Color Name="IconActionFill">
+				<Background Type="CT_RAW" Source="FF60C060" />
+			</Color>
+			<Color Name="MainWindowActiveBuildingBorder">
+				<Background Type="CT_RAW" Source="FF60C060" />
+			</Color>
+			<Color Name="MainWindowActiveDefaultBorder">
+				<Background Type="CT_RAW" Source="FF60C060" />
+			</Color>
+			<Color Name="NewProjectItemSelected">
+				<Background Type="CT_RAW" Source="FF60C060" />
+			</Color>
+			<Color Name="NewProjectItemSelectedBorder">
+				<Background Type="CT_RAW" Source="FF60C060" />
+			</Color>
+			<Color Name="ProjectDesignerTabSelectedBorder">
+				<Background Type="CT_RAW" Source="FF60C060" />
+			</Color>
+			<Color Name="ProjectDesignerTabSelectedInsideBorder">
+				<Background Type="CT_RAW" Source="FF60C060" />
+			</Color>
+			<Color Name="Snaplines">
+				<Background Type="CT_RAW" Source="FF60C060" />
+			</Color>
+			<Color Name="SnaplinesTextBaseline">
+				<Background Type="CT_RAW" Source="FF60C060" />
+			</Color>
+			<Color Name="TitleBarActiveBorder">
+				<Background Type="CT_RAW" Source="FF60C060" />
+			</Color>
+		</Category>
 
 		<Category Name="Cpp Text Editor MEF Items" GUID="{75a05685-00a8-4ded-bae5-e7a50bfa929a}">
 			<Color Name="CppMacroSemanticTokenFormat">
@@ -223,9 +320,6 @@
 			<Color Name="xml literal - text">
 				<Foreground Type="CT_RAW" Source="FFCDCBCD" />
 			</Color>
-			<Color Name="OverviewMarginScrollButtons">
-				<Foreground Type="CT_RAW" Source="FFCDCBCD" />
-			</Color>
 			<Color Name="Type">
 				<Foreground Type="CT_RAW" Source="FF78DCE8" />
 			</Color>
@@ -243,9 +337,6 @@
 			</Color>
 			<Color Name="Literal">
 				<Foreground Type="CT_RAW" Source="FFAB9DF2" />
-			</Color>
-			<Color Name="outlining.collapsehintadornment">
-				<Foreground Type="CT_RAW" Source="FFD7DDE8" />
 			</Color>
 			<Color Name="XML Doc Comment">
 				<Foreground Type="CT_RAW" Source="FF807D82" />
@@ -386,8 +477,7 @@
 				<Foreground Type="CT_RAW" Source="FF807D82" />
 			</Color>
 		</Category>
-		<Category Name="Text Editor Language Service Items"
-			GUID="{e0187991-b458-4f7e-8ca9-42c9a573b56c}">
+		<Category Name="Text Editor Language Service Items" GUID="{e0187991-b458-4f7e-8ca9-42c9a573b56c}">
 			<Color Name="Keyword">
 				<Foreground Type="CT_RAW" Source="FF78DCE8" />
 			</Color>
